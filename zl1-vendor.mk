@@ -1553,5 +1553,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libtime_genoff \
     libloc_api_v02 \
-    libsdm-disp-apis
+    libsdm-disp-apis \
+    LetvRemoteControl \
+    UEIQuicksetSDKLeTV
 endif
