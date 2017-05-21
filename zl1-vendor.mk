@@ -67,11 +67,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/leeco/zl1/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/leeco/zl1/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
-    vendor/leeco/zl1/proprietary/etc/usf/form_factor_mtp.cfg:system/etc/usf/form_factor_mtp.cfg \
-    vendor/leeco/zl1/proprietary/etc/usf_post_boot.sh:system/etc/usf_post_boot.sh \
-    vendor/leeco/zl1/proprietary/etc/usf/readme.txt:system/etc/usf/readme.txt \
-    vendor/leeco/zl1/proprietary/etc/usf_settings.sh:system/etc/usf_settings.sh \
-    vendor/leeco/zl1/proprietary/etc/usf/version.txt:system/etc/usf/version.txt \
     vendor/leeco/zl1/proprietary/etc/virtual-spn-conf-by-efspn.xml:system/etc/virtual-spn-conf-by-efspn.xml \
     vendor/leeco/zl1/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/leeco/zl1/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
