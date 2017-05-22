@@ -1338,7 +1338,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/libqti-iop.so:system/vendor/lib/libqti-iop.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libqti-iop.so:system/vendor/lib64/libqti-iop.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libqti-iop.so:system/vendor/lib64/libqti-iop.so \
-    vendor/leeco/zl1/proprietary/vendor/lib64/libcryptfs_hw.so:system/vendor/lib64/libcryptfs_hw.so \
     vendor/leeco/zl1/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
     vendor/leeco/zl1/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
