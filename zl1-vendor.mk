@@ -163,6 +163,10 @@ PRODUCT_PACKAGES += \
     qcnvitems \
     qcrilhook
 
+PRODUCT_PACKAGES += \
+    qdcm_calib_data_mdss_dsi_ft8716_1080p_video \
+    qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video
+
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/bin/mdtpd:system/vendor/bin/mdtpd \
@@ -1409,10 +1413,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libtime_genoff \
     libloc_api_v02
-endif
-
--include vendor/extra/devices.mk
-ifneq ($(call is-qc-perf-target),true)
 endif
 
 $(call inherit-product, vendor/qcom/binaries/msm8996/graphics/graphics-vendor.mk)

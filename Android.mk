@@ -282,8 +282,22 @@ LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
-endif
+include $(CLEAR_VARS)
+LOCAL_MODULE := qdcm_calib_data_mdss_dsi_ft8716_1080p_video
+LOCAL_MODULE_OWNER := leeco
+LOCAL_SRC_FILES := proprietary/etc/qdcm/qdcm_calib_data_mdss_dsi_ft8716_1080p_video.xml
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_SUFFIX := .xml
+include $(BUILD_PREBUILT)
 
-ifneq ($(TARGET_HAVE_QC_PERF),true)
+include $(CLEAR_VARS)
+LOCAL_MODULE := qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video
+LOCAL_MODULE_OWNER := leeco
+LOCAL_SRC_FILES := proprietary/etc/qdcm/qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video.xml
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_SUFFIX := .xml
+include $(BUILD_PREBUILT)
 
 endif
