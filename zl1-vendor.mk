@@ -1361,6 +1361,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
      vendor/leeco/zl1/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
      vendor/leeco/zl1/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
+     vendor/leeco/zl1/proprietary/vendor/lib/libcppf.so:system/vendor/lib/libcppf.so \
      vendor/leeco/zl1/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so
 
 #GPS addon
