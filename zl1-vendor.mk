@@ -1285,6 +1285,14 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
+    vendor/leeco/zl1/proprietary/vendor/etc/perf-profile8.conf:system/vendor/etc/perf-profile8.conf \
+    vendor/leeco/zl1/proprietary/vendor/etc/perf-profile7.conf:system/vendor/etc/perf-profile7.conf \
+    vendor/leeco/zl1/proprietary/vendor/etc/perf-profile6.conf:system/vendor/etc/perf-profile6.conf \
+    vendor/leeco/zl1/proprietary/vendor/etc/perf-profile5.conf:system/vendor/etc/perf-profile5.conf \
+    vendor/leeco/zl1/proprietary/vendor/etc/perf-profile4.conf:system/vendor/etc/perf-profile4.conf \
+    vendor/leeco/zl1/proprietary/vendor/etc/perf-profile3.conf:system/vendor/etc/perf-profile3.conf \
+    vendor/leeco/zl1/proprietary/vendor/etc/perf-profile2.conf:system/vendor/etc/perf-profile2.conf \
+    vendor/leeco/zl1/proprietary/vendor/etc/perf-profile1.conf:system/vendor/etc/perf-profile1.conf \
     vendor/leeco/zl1/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
     vendor/leeco/zl1/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/leeco/zl1/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
