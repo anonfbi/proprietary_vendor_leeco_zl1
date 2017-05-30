@@ -43,7 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/leeco/zl1/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/leeco/zl1/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
-    vendor/leeco/zl1/proprietary/bin/mtpd:system/bin/mtpd \
     vendor/leeco/zl1/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/leeco/zl1/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/leeco/zl1/proprietary/bin/pm-service:system/bin/pm-service \
