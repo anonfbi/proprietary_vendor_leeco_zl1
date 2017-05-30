@@ -39,6 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/leeco/zl1/proprietary/bin/gx_fpd:system/bin/gx_fpd \
     vendor/leeco/zl1/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/leeco/zl1/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/leeco/zl1/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/leeco/zl1/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/leeco/zl1/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
