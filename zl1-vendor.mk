@@ -55,6 +55,23 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
     vendor/leeco/zl1/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/leeco/zl1/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/leeco/zl1/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
+    vendor/leeco/zl1/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
+    vendor/leeco/zl1/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
+    vendor/leeco/zl1/proprietary/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
+    vendor/leeco/zl1/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
+    vendor/leeco/zl1/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
+    vendor/leeco/zl1/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+    vendor/leeco/zl1/proprietary/etc/ad_calib_le_zl1.cfg:system/etc/ad_calib_le_zl1.cfg \
+    vendor/leeco/zl1/proprietary/etc/camera/imx298_chromatix.xml:system/etc/camera/imx298_chromatix.xml \
+    vendor/leeco/zl1/proprietary/etc/camera/imx298_ofilm_ak_chromatix.xml:system/etc/camera/imx298_ofilm_ak_chromatix.xml \
+    vendor/leeco/zl1/proprietary/etc/camera/imx298_ofilm_chromatix.xml:system/etc/camera/imx298_ofilm_chromatix.xml \
+    vendor/leeco/zl1/proprietary/etc/camera/imx298_truly_ak_chromatix.xml:system/etc/camera/imx298_truly_ak_chromatix.xml \
+    vendor/leeco/zl1/proprietary/etc/camera/msm8996_camera.xml:system/etc/camera/msm8996_camera.xml \
+    vendor/leeco/zl1/proprietary/etc/camera/ov8865_chromatix.xml:system/etc/camera/ov8865_chromatix.xml \
+    vendor/leeco/zl1/proprietary/etc/camera/ov8865_ofilm_chromatix.xml:system/etc/camera/ov8865_ofilm_chromatix.xml \
+    vendor/leeco/zl1/proprietary/etc/camera/ov8865_ofilm_plus_chromatix.xml:system/etc/camera/ov8865_ofilm_plus_chromatix.xml \
+    vendor/leeco/zl1/proprietary/etc/camera/ov8865_sunny_chromatix.xml:system/etc/camera/ov8865_sunny_chromatix.xml \
     vendor/leeco/zl1/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/leeco/zl1/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/leeco/zl1/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
@@ -62,9 +79,79 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/leeco/zl1/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/leeco/zl1/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
+    vendor/leeco/zl1/proprietary/etc/firmware/Signedrompatch_v20.bin:system/etc/firmware/Signedrompatch_v20.bin \
+    vendor/leeco/zl1/proprietary/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin \
+    vendor/leeco/zl1/proprietary/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin \
+    vendor/leeco/zl1/proprietary/etc/firmware/Signedrompatch_v30.bin:system/etc/firmware/Signedrompatch_v30.bin \
+    vendor/leeco/zl1/proprietary/etc/firmware/a530_gpmu.fw2:system/etc/firmware/a530_gpmu.fw2 \
+    vendor/leeco/zl1/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
+    vendor/leeco/zl1/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
+    vendor/leeco/zl1/proprietary/etc/firmware/a530_zap.b00:system/etc/firmware/a530_zap.b00 \
+    vendor/leeco/zl1/proprietary/etc/firmware/a530_zap.b01:system/etc/firmware/a530_zap.b01 \
+    vendor/leeco/zl1/proprietary/etc/firmware/a530_zap.b02:system/etc/firmware/a530_zap.b02 \
+    vendor/leeco/zl1/proprietary/etc/firmware/a530_zap.elf:system/etc/firmware/a530_zap.elf \
+    vendor/leeco/zl1/proprietary/etc/firmware/a530_zap.mdt:system/etc/firmware/a530_zap.mdt \
+    vendor/leeco/zl1/proprietary/etc/firmware/a530v1_pfp.fw:system/etc/firmware/a530v1_pfp.fw \
+    vendor/leeco/zl1/proprietary/etc/firmware/a530v1_pm4.fw:system/etc/firmware/a530v1_pm4.fw \
+    vendor/leeco/zl1/proprietary/etc/firmware/a530v2_seq.fw2:system/etc/firmware/a530v2_seq.fw2 \
+    vendor/leeco/zl1/proprietary/etc/firmware/a530v3_gpmu.fw2:system/etc/firmware/a530v3_gpmu.fw2 \
+    vendor/leeco/zl1/proprietary/etc/firmware/a530v3_seq.fw2:system/etc/firmware/a530v3_seq.fw2 \
+    vendor/leeco/zl1/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
+    vendor/leeco/zl1/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/leeco/zl1/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/leeco/zl1/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/leeco/zl1/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/leeco/zl1/proprietary/etc/firmware/cpp_firmware_v1_5_0.fw:system/etc/firmware/cpp_firmware_v1_5_0.fw \
+    vendor/leeco/zl1/proprietary/etc/firmware/cpp_firmware_v1_5_2.fw:system/etc/firmware/cpp_firmware_v1_5_2.fw \
+    vendor/leeco/zl1/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
+    vendor/leeco/zl1/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/leeco/zl1/proprietary/etc/firmware/cppf.b00:system/etc/firmware/cppf.b00 \
+    vendor/leeco/zl1/proprietary/etc/firmware/cppf.b01:system/etc/firmware/cppf.b01 \
+    vendor/leeco/zl1/proprietary/etc/firmware/cppf.b02:system/etc/firmware/cppf.b02 \
+    vendor/leeco/zl1/proprietary/etc/firmware/cppf.b03:system/etc/firmware/cppf.b03 \
+    vendor/leeco/zl1/proprietary/etc/firmware/cppf.b04:system/etc/firmware/cppf.b04 \
+    vendor/leeco/zl1/proprietary/etc/firmware/cppf.b05:system/etc/firmware/cppf.b05 \
+    vendor/leeco/zl1/proprietary/etc/firmware/cppf.b06:system/etc/firmware/cppf.b06 \
+    vendor/leeco/zl1/proprietary/etc/firmware/cppf.mbn:system/etc/firmware/cppf.mbn \
+    vendor/leeco/zl1/proprietary/etc/firmware/cppf.mdt:system/etc/firmware/cppf.mdt \
+    vendor/leeco/zl1/proprietary/etc/firmware/cyccg.cybin:system/etc/firmware/cyccg.cybin \
+    vendor/leeco/zl1/proprietary/etc/firmware/cyccg_table.cybin:system/etc/firmware/cyccg_table.cybin \
+    vendor/leeco/zl1/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+    vendor/leeco/zl1/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+    vendor/leeco/zl1/proprietary/etc/firmware/modem_pr/mbn_upgrade_info:system/etc/firmware/modem_pr/mbn_upgrade_info \
+    vendor/leeco/zl1/proprietary/etc/firmware/modem_pr/mcfg_sw_att.mbn:system/etc/firmware/modem_pr/mcfg_sw_att.mbn \
+    vendor/leeco/zl1/proprietary/etc/firmware/modem_pr/mcfg_sw_cmcc.mbn:system/etc/firmware/modem_pr/mcfg_sw_cmcc.mbn \
+    vendor/leeco/zl1/proprietary/etc/firmware/modem_pr/mcfg_sw_ct.mbn:system/etc/firmware/modem_pr/mcfg_sw_ct.mbn \
+    vendor/leeco/zl1/proprietary/etc/firmware/modem_pr/mcfg_sw_cu.mbn:system/etc/firmware/modem_pr/mcfg_sw_cu.mbn \
+    vendor/leeco/zl1/proprietary/etc/firmware/modem_pr/mcfg_sw_others.mbn:system/etc/firmware/modem_pr/mcfg_sw_others.mbn \
+    vendor/leeco/zl1/proprietary/etc/firmware/modem_pr/mcfg_sw_reliance.mbn:system/etc/firmware/modem_pr/mcfg_sw_reliance.mbn \
+    vendor/leeco/zl1/proprietary/etc/firmware/modem_pr/mcfg_sw_sprint.mbn:system/etc/firmware/modem_pr/mcfg_sw_sprint.mbn \
+    vendor/leeco/zl1/proprietary/etc/firmware/modem_pr/mcfg_sw_tmo.mbn:system/etc/firmware/modem_pr/mcfg_sw_tmo.mbn \
+    vendor/leeco/zl1/proprietary/etc/firmware/modem_pr/mcfg_sw_verizon.mbn:system/etc/firmware/modem_pr/mcfg_sw_verizon.mbn \
+    vendor/leeco/zl1/proprietary/etc/firmware/nfc_test.bin:system/etc/firmware/nfc_test.bin \
+    vendor/leeco/zl1/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
+    vendor/leeco/zl1/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
+    vendor/leeco/zl1/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
+    vendor/leeco/zl1/proprietary/etc/firmware/nvm_tlv_3.0.bin:system/etc/firmware/nvm_tlv_3.0.bin \
+    vendor/leeco/zl1/proprietary/etc/firmware/nvm_tlv_3.2.bin:system/etc/firmware/nvm_tlv_3.2.bin \
+    vendor/leeco/zl1/proprietary/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
+    vendor/leeco/zl1/proprietary/etc/firmware/rampatch_tlv_1.3.tlv:system/etc/firmware/rampatch_tlv_1.3.tlv \
+    vendor/leeco/zl1/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
+    vendor/leeco/zl1/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
+    vendor/leeco/zl1/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
+    vendor/leeco/zl1/proprietary/etc/firmware/sii6400_wihd_mhl.fw:system/etc/firmware/sii6400_wihd_mhl.fw \
+    vendor/leeco/zl1/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/leeco/zl1/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
+    vendor/leeco/zl1/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/leeco/zl1/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
-    vendor/leeco/zl1/proprietary/etc/virtual-spn-conf-by-efspn.xml:system/etc/virtual-spn-conf-by-efspn.xml \
+    vendor/leeco/zl1/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
+    vendor/leeco/zl1/proprietary/etc/qvop/antispoofing.bin:system/etc/qvop/antispoofing.bin \
+    vendor/leeco/zl1/proprietary/etc/qvop/cmudict.bin:system/etc/qvop/cmudict.bin \
+    vendor/leeco/zl1/proprietary/etc/qvop/noisesample.bin:system/etc/qvop/noisesample.bin \
+    vendor/leeco/zl1/proprietary/etc/qvop/poc_64_hmm.gmm:system/etc/qvop/poc_64_hmm.gmm \
+    vendor/leeco/zl1/proprietary/etc/qxdm/1.cfg:system/etc/qxdm/1.cfg \
+    vendor/leeco/zl1/proprietary/etc/qxdm/gps_log.cfg:system/etc/qxdm/gps_log.cfg \
+    vendor/leeco/zl1/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/leeco/zl1/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/leeco/zl1/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/leeco/zl1/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
