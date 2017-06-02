@@ -167,6 +167,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/leeco/zl1/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/leeco/zl1/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
+    vendor/leeco/zl1/proprietary/framework/org.simalliance.openmobileapi.jar:system/framework/org.simalliance.openmobileapi.jar \
     vendor/leeco/zl1/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/leeco/zl1/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/leeco/zl1/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
