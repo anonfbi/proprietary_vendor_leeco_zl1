@@ -125,7 +125,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/etc/firmware/modem_pr/mcfg_sw_cu.mbn:system/etc/firmware/modem_pr/mcfg_sw_cu.mbn \
     vendor/leeco/zl1/proprietary/etc/firmware/modem_pr/mcfg_sw_others.mbn:system/etc/firmware/modem_pr/mcfg_sw_others.mbn \
     vendor/leeco/zl1/proprietary/etc/firmware/modem_pr/mcfg_sw_reliance.mbn:system/etc/firmware/modem_pr/mcfg_sw_reliance.mbn \
-    vendor/leeco/zl1/proprietary/etc/firmware/modem_pr/mcfg_sw_sprint.mbn:system/etc/firmware/modem_pr/mcfg_sw_sprint.mbn \
     vendor/leeco/zl1/proprietary/etc/firmware/modem_pr/mcfg_sw_tmo.mbn:system/etc/firmware/modem_pr/mcfg_sw_tmo.mbn \
     vendor/leeco/zl1/proprietary/etc/firmware/modem_pr/mcfg_sw_verizon.mbn:system/etc/firmware/modem_pr/mcfg_sw_verizon.mbn \
     vendor/leeco/zl1/proprietary/etc/firmware/nfc_test.bin:system/etc/firmware/nfc_test.bin \
