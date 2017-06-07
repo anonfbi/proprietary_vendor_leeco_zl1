@@ -240,6 +240,7 @@ PRODUCT_COPY_FILES += \
 
 # Packages
 PRODUCT_PACKAGES += \
+    com.qualcomm.location \
     com.qti.dpmframework \
     dpmapi \
     com.qti.location.sdk \
