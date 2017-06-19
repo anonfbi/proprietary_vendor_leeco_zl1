@@ -202,7 +202,6 @@ LOCAL_MODULE_OWNER := leeco
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
 LOCAL_MODULE_TAGS := optional
-LOCAL_CERTIFICATE := platform
 LOCAL_SRC_FILES := proprietary/framework/com.qti.dpmframework.jar
 include $(BUILD_PREBUILT)
 
@@ -212,7 +211,6 @@ LOCAL_MODULE_OWNER := leeco
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
 LOCAL_MODULE_TAGS := optional
-LOCAL_CERTIFICATE := platform
 LOCAL_SRC_FILES := proprietary/framework/com.qti.location.sdk.jar
 include $(BUILD_PREBUILT)
 
@@ -222,7 +220,6 @@ LOCAL_MODULE_OWNER := leeco
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
 LOCAL_MODULE_TAGS := optional
-LOCAL_CERTIFICATE := platform
 LOCAL_SRC_FILES := proprietary/framework/dpmapi.jar
 include $(BUILD_PREBUILT)
 
@@ -232,7 +229,6 @@ LOCAL_MODULE_OWNER := leeco
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
 LOCAL_MODULE_TAGS := optional
-LOCAL_CERTIFICATE := platform
 LOCAL_SRC_FILES := proprietary/framework/qcnvitems.jar
 include $(BUILD_PREBUILT)
 
@@ -242,7 +238,6 @@ LOCAL_MODULE_OWNER := leeco
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
 LOCAL_MODULE_TAGS := optional
-LOCAL_CERTIFICATE := platform
 LOCAL_SRC_FILES := proprietary/framework/qcrilhook.jar
 include $(BUILD_PREBUILT)
 
@@ -252,7 +247,6 @@ LOCAL_MODULE_OWNER := leeco
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
 LOCAL_MODULE_TAGS := optional
-LOCAL_CERTIFICATE := platform
 LOCAL_SRC_FILES := proprietary/framework/tcmclient.jar
 include $(BUILD_PREBUILT)
 
@@ -262,7 +256,6 @@ LOCAL_MODULE_OWNER := leeco
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .xml
 LOCAL_MODULE_TAGS := optional
-LOCAL_CERTIFICATE := platform
 LOCAL_SRC_FILES := proprietary/etc/qdcm_calib_data_mdss_dsi_ft8716_1080p_video.xml
 include $(BUILD_PREBUILT)
 
@@ -272,8 +265,28 @@ LOCAL_MODULE_OWNER := leeco
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .xml
 LOCAL_MODULE_TAGS := optional
-LOCAL_CERTIFICATE := platform
 LOCAL_SRC_FILES := proprietary/etc/qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video.xml
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libloc_api_v02
+LOCAL_MODULE_OWNER := leeco
+LOCAL_MULTILIB := 64
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := proprietary/lib64/libloc_api_v02.so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libthermalclient
+LOCAL_MODULE_OWNER := leeco
+LOCAL_MULTILIB := both
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libthermalclient.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libthermalclient.so
 include $(BUILD_PREBUILT)
 endif
 
