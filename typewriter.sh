@@ -61,6 +61,20 @@ function andhdl {
     TARGET=$(grep -E "$NAME.$EXTENSION" $PROPRIETARY_INDEX | sed 's/^[-\/]*//' | sed 's/system/proprietary/')
     echo "Removing $NAME.$EXTENSION from copy conditions..."
     NUM=$(grep -n "$TARGET" $MAKEFILE | sed 's/^\([0-9]\+\):.*$/\1/')
+    PREV=$(expr $NUM - 1)
+    NEXT=$(expr $NUM + 1)
+    PLINE=$(head -n $PREV $MAKEFILE | tail -n 1)
+    NLINE=$(head -n $NEXT $MAKEFILE | tail -n 1)
+    # If the next line is blank, it's because the target is the last line and won't
+    # have "\" at the end of the rule, we'd then remove the "\" from previous line
+    # to avoid syntax issues before removing the target line itself.
+    if [ $(echo $NLINE | grep -cvP '\S') == 1 ]; then
+        echo "Warning: Adjusting backslashes before removing $NAME.$EXTENSION..."
+        REPLACE=$(echo $PLINE | sed 's/\\//g' | sed 's/ //g')
+        sed -i "${PREV}s|.*|    ${REPLACE}|" $MAKEFILE
+    fi
+    # After we've checked the previous/next lines, we can safely remove
+    # the target line itself.
     sed -i "${NUM}d" $MAKEFILE
     echo "Adding $NAME.$EXTENSION to $AMAKEFILE..."
     echo "
@@ -211,9 +225,6 @@ echo "endif" >> $AMAKEFILE
 echo "" >> $MAKEFILE
 echo "endif" >> $MAKEFILE
 
-# Tell the user he needs to open the makefiles and look for any
-# possible inconsistency like missing or extra "\".
+# Bye.
 echo ""
-echo "NOTE:"
-echo "Please open [$MAKEFILE] and [$AMAKEFILE] to review the syntax"
-echo "and look for inconsistencies like missing/extra backslashes."
+echo "Done."
