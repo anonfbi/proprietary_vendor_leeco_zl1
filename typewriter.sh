@@ -457,6 +457,10 @@ andhdlib "libthermalclient"
 andhdlib "libtime_genoff"
 andhdlib "libTimeService"
 andhdlib "libsdm-disp-apis"
+andhdlib "libqct_resampler"
+andhdlib "libavenhancements"
+andhdlib "libmmparser"
+andhdlib "libmmparser_lite"
 ####################
 echo "endif" >> $AMAKEFILE
 

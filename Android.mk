@@ -333,6 +333,53 @@ LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libsdm-disp-apis.so
 LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libsdm-disp-apis.so
 include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqct_resampler
+LOCAL_MODULE_OWNER := leeco
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_TAGS := optional
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES := proprietary/vendor/lib/libqct_resampler.so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libavenhancements
+LOCAL_MODULE_OWNER := leeco
+LOCAL_MULTILIB := both
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_TAGS := optional
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libavenhancements.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libavenhancements.so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libmmparser
+LOCAL_MODULE_OWNER := leeco
+LOCAL_MULTILIB := both
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_TAGS := optional
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libmmparser.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libmmparser.so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libmmparser_lite
+LOCAL_MODULE_OWNER := leeco
+LOCAL_MULTILIB := both
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_TAGS := optional
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libmmparser_lite.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libmmparser_lite.so
+include $(BUILD_PREBUILT)
 endif
 
 $(shell mkdir -p $(PRODUCT_OUT)/system/vendor/lib/egl && pushd $(PRODUCT_OUT)/system/vendor/lib > /dev/null && ln -s egl/libEGL_adreno.so libEGL_adreno.so && popd > /dev/null)

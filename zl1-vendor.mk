@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/leeco/zl1/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/leeco/zl1/proprietary/bin/energy-awareness:system/bin/energy-awareness \
+    vendor/leeco/zl1/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/leeco/zl1/proprietary/bin/gx_fpd:system/bin/gx_fpd \
     vendor/leeco/zl1/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/leeco/zl1/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
@@ -213,6 +214,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/lib/libmputility.so:system/lib/libmputility.so \
     vendor/leeco/zl1/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/leeco/zl1/proprietary/lib/libqrDec.so:system/lib/libqrDec.so \
+    vendor/leeco/zl1/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/leeco/zl1/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/leeco/zl1/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/leeco/zl1/proprietary/lib/libzeusisCameraAlgoSceneDetection.so:system/lib/libzeusisCameraAlgoSceneDetection.so \
@@ -226,6 +228,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/leeco/zl1/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/leeco/zl1/proprietary/lib64/libmm-omxcore.so:system/lib64/libmm-omxcore.so \
+    vendor/leeco/zl1/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
     vendor/leeco/zl1/proprietary/lib64/libstlport.so:system/lib64/libstlport.so \
     vendor/leeco/zl1/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
     vendor/leeco/zl1/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
@@ -247,16 +250,25 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libFaceGrade.so:system/vendor/lib/libFaceGrade.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libFaceProc.so:system/vendor/lib/libFaceProc.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libGPreqcancel.so:system/vendor/lib/libGPreqcancel.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libGPreqcancel_svc.so:system/vendor/lib/libGPreqcancel_svc.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libOmxAlacDec.so:system/vendor/lib/libOmxAlacDec.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libOmxAlacDecSw.so:system/vendor/lib/libOmxAlacDecSw.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libOmxApeDec.so:system/vendor/lib/libOmxApeDec.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libOmxApeDecSw.so:system/vendor/lib/libOmxApeDecSw.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libOmxMux.so:system/vendor/lib/libOmxMux.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libOmxVideoDSMode.so:system/vendor/lib/libOmxVideoDSMode.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
@@ -295,9 +307,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libaptXScheduler.so:system/vendor/lib/libaptXScheduler.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/libasn1cper.so:system/vendor/lib/libasn1cper.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/libasn1crt.so:system/vendor/lib/libasn1crt.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/libasn1crtx.so:system/vendor/lib/libasn1crtx.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libaudiodevarb.so:system/vendor/lib/libaudiodevarb.so \
@@ -1183,7 +1192,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/libmmwfdinterface.so:system/vendor/lib/libmmwfdinterface.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libmorpho_easy_hdr.so:system/vendor/lib/libmorpho_easy_hdr.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libmorpho_hdr_checker.so:system/vendor/lib/libmorpho_hdr_checker.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libmorpho_image_stab4.so:system/vendor/lib/libmorpho_image_stab4.so \
@@ -1283,7 +1291,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/leeco/zl1/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/leeco/zl1/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/soundfx/libswdap.so:system/vendor/lib/soundfx/libswdap.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
@@ -1315,16 +1322,28 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libAR_jni.so:system/vendor/lib64/libAR_jni.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libAlacSwDec.so:system/vendor/lib64/libAlacSwDec.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libApeSwDec.so:system/vendor/lib64/libApeSwDec.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libDRPlugin.so:system/vendor/lib64/libDRPlugin.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libExtendedExtractor.so:system/vendor/lib64/libExtendedExtractor.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libFlacSwDec.so:system/vendor/lib64/libFlacSwDec.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libGPreqcancel.so:system/vendor/lib64/libGPreqcancel.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libGPreqcancel_svc.so:system/vendor/lib64/libGPreqcancel_svc.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libI420colorconvert.so:system/vendor/lib64/libI420colorconvert.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libNimsWrap.so:system/vendor/lib64/libNimsWrap.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libOmxAacDec.so:system/vendor/lib64/libOmxAacDec.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libOmxAlacDec.so:system/vendor/lib64/libOmxAlacDec.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libOmxAlacDecSw.so:system/vendor/lib64/libOmxAlacDecSw.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libOmxAmrwbplusDec.so:system/vendor/lib64/libOmxAmrwbplusDec.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libOmxApeDec.so:system/vendor/lib64/libOmxApeDec.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libOmxApeDecSw.so:system/vendor/lib64/libOmxApeDecSw.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libOmxEvrcDec.so:system/vendor/lib64/libOmxEvrcDec.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libOmxMux.so:system/vendor/lib64/libOmxMux.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libOmxQcelp13Dec.so:system/vendor/lib64/libOmxQcelp13Dec.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libOmxWmaDec.so:system/vendor/lib64/libOmxWmaDec.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libQtiTether.so:system/vendor/lib64/libQtiTether.so \
@@ -1382,6 +1401,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/liblistenjni.so:system/vendor/lib64/liblistenjni.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/liblistensoundmodel2.so:system/vendor/lib64/liblistensoundmodel2.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libllvm-qgl.so:system/vendor/lib64/libllvm-qgl.so \
@@ -1412,6 +1433,11 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:system/vendor/lib64/libmmcamera_tintless_algo.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libmmrtpdecoder.so:system/vendor/lib64/libmmrtpdecoder.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libmmrtpencoder.so:system/vendor/lib64/libmmrtpencoder.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libmmwfdinterface.so:system/vendor/lib64/libmmwfdinterface.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libmmwfdsinkinterface.so:system/vendor/lib64/libmmwfdsinkinterface.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libmmwfdsrcinterface.so:system/vendor/lib64/libmmwfdsrcinterface.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libqc-opt.so:system/vendor/lib64/libqc-opt.so \
@@ -1470,6 +1496,21 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libvpphvx.so:system/vendor/lib64/libvpphvx.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libwfdavenhancements.so:system/vendor/lib64/libwfdavenhancements.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libwfdcommonutils.so:system/vendor/lib64/libwfdcommonutils.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libwfdhdcpcp.so:system/vendor/lib64/libwfdhdcpcp.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libwfdmmservice.so:system/vendor/lib64/libwfdmmservice.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libwfdmmsink.so:system/vendor/lib64/libwfdmmsink.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libwfdmmsrc.so:system/vendor/lib64/libwfdmmsrc.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libwfdnative.so:system/vendor/lib64/libwfdnative.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libwfdrtsp.so:system/vendor/lib64/libwfdrtsp.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libwfdservice.so:system/vendor/lib64/libwfdservice.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libwfdsm.so:system/vendor/lib64/libwfdsm.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libwfduibcinterface.so:system/vendor/lib64/libwfduibcinterface.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libwfduibcsink.so:system/vendor/lib64/libwfduibcsink.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libwfduibcsinkinterface.so:system/vendor/lib64/libwfduibcsinkinterface.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libwfduibcsrc.so:system/vendor/lib64/libwfduibcsrc.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libwfduibcsrcinterface.so:system/vendor/lib64/libwfduibcsrcinterface.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
@@ -1561,15 +1602,6 @@ PRODUCT_COPY_FILES += \
 
 # Firmware Files (H)
 PRODUCT_COPY_FILES += \
-    vendor/leeco/zl1/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
-    vendor/leeco/zl1/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-    vendor/leeco/zl1/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-    vendor/leeco/zl1/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-    vendor/leeco/zl1/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-    vendor/leeco/zl1/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
-    vendor/leeco/zl1/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
-    vendor/leeco/zl1/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
-    vendor/leeco/zl1/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
     vendor/leeco/zl1/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
     vendor/leeco/zl1/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
     vendor/leeco/zl1/proprietary/etc/firmware/a530v1_pfp.fw:system/etc/firmware/a530v1_pfp.fw \
@@ -1641,5 +1673,9 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libtime_genoff \
     libTimeService \
-    libsdm-disp-apis
+    libsdm-disp-apis \
+    libqct_resampler \
+    libavenhancements \
+    libmmparser \
+    libmmparser_lite
 endif
