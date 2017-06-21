@@ -7,6 +7,8 @@
 /system/etc/acdbdata/MTP/MTP_Headset_cal.acdb
 /system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
 /system/etc/dpm/dpm.conf
+/system/etc/sensors/hals.conf
+/system/etc/sensors/sensor_def_qcomdev.conf
 /system/etc/thermal-engine.conf
 /system/vendor/etc/perf-profile0.conf
 /system/vendor/etc/perf-profile1.conf

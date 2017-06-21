@@ -87,6 +87,8 @@ PRODUCT_COPY_FILES += \
 # Configuration (A)
 PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
+    vendor/leeco/zl1/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
+    vendor/leeco/zl1/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/leeco/zl1/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/leeco/zl1/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
     vendor/leeco/zl1/proprietary/vendor/etc/perf-profile1.conf:system/vendor/etc/perf-profile1.conf \
