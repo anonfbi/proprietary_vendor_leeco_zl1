@@ -340,7 +340,7 @@ echo "" >> $MAKEFILE
 # / -_) _` | |  _| #
 # \___\__,_|_|\__| #
 ####################
-typwrt ".acdb"  "ACDB"
+typwrt ".acdb"  "ACDB Files"
 typwrt ".conf"  "Configuration (A)"
 typwrt ".cfg"   "Configuration (B)"
 typwrt ".db"    "Database"

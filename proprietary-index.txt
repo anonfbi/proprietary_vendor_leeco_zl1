@@ -939,7 +939,6 @@
 /system/vendor/lib/libconfigdb.so
 /system/vendor/lib/libconnctrl.so
 /system/vendor/lib/libcppf.so
-/system/vendor/lib/libcsd-client.so
 /system/vendor/lib/libdataitems.so
 /system/vendor/lib/libdiag.so
 /system/vendor/lib/libdisp-aba.so
@@ -1297,7 +1296,6 @@
 /system/vendor/lib64/libcneqmiutils.so
 /system/vendor/lib64/libconfigdb.so
 /system/vendor/lib64/libconnctrl.so
-/system/vendor/lib64/libcsd-client.so
 /system/vendor/lib64/libdataitems.so
 /system/vendor/lib64/libdiag.so
 /system/vendor/lib64/libdisp-aba.so
