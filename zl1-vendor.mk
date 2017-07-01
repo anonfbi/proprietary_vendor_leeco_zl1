@@ -82,7 +82,18 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
     vendor/leeco/zl1/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
     vendor/leeco/zl1/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
-    vendor/leeco/zl1/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
+    vendor/leeco/zl1/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+    vendor/leeco/zl1/proprietary/etc/acdbdata/MTP/common/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/common/MTP_Bluetooth_cal.acdb \
+    vendor/leeco/zl1/proprietary/etc/acdbdata/MTP/common/MTP_General_cal.acdb:system/etc/acdbdata/MTP/common/MTP_General_cal.acdb \
+    vendor/leeco/zl1/proprietary/etc/acdbdata/MTP/common/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/common/MTP_Global_cal.acdb \
+    vendor/leeco/zl1/proprietary/etc/acdbdata/MTP/common/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/common/MTP_Handset_cal.acdb \
+    vendor/leeco/zl1/proprietary/etc/acdbdata/MTP/common/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/common/MTP_Hdmi_cal.acdb \
+    vendor/leeco/zl1/proprietary/etc/acdbdata/MTP/common/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/common/MTP_Headset_cal.acdb \
+    vendor/leeco/zl1/proprietary/etc/acdbdata/MTP/common/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/common/MTP_Speaker_cal.acdb
+
+# ACDB Skeleton
+PRODUCT_COPY_FILES += \
+    vendor/leeco/zl1/proprietary/etc/acdbdata/MTP/common/workspaceFile.qwsp:system/etc/acdbdata/MTP/common/workspaceFile.qwsp
 
 # Configuration (A)
 PRODUCT_COPY_FILES += \

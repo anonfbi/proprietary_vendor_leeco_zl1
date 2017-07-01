@@ -341,6 +341,7 @@ echo "" >> $MAKEFILE
 # \___\__,_|_|\__| #
 ####################
 typwrt ".acdb"  "ACDB Files"
+typwrt ".qwsp"  "ACDB Skeleton"
 typwrt ".conf"  "Configuration (A)"
 typwrt ".cfg"   "Configuration (B)"
 typwrt ".db"    "Database"
