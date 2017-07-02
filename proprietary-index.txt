@@ -963,8 +963,6 @@
 /system/vendor/lib/libfastcvopt.so
 /system/vendor/lib/libflash_i2c.so
 /system/vendor/lib/libflash_pmic.so
-/system/vendor/lib/libgdtap.so
-/system/vendor/lib/libgeofence.so
 /system/vendor/lib/libgsl.so
 /system/vendor/lib/libidl.so
 /system/vendor/lib/libjpegdhw.so
@@ -974,10 +972,6 @@
 /system/vendor/lib/libllvm-glnext.so
 /system/vendor/lib/libllvm-qcom.so
 /system/vendor/lib/libllvm-qgl.so
-/system/vendor/lib/libloc_ext.so
-/system/vendor/lib/liblocationservice.so
-/system/vendor/lib/liblocationservice_glue.so
-/system/vendor/lib/liblowi_client.so
 /system/vendor/lib/liblqe.so
 /system/vendor/lib/libmdmdetect.so
 /system/vendor/lib/libmdtp.so
@@ -1152,7 +1146,6 @@
 /system/vendor/lib/libqti-perfd-client.so
 /system/vendor/lib/libqti-wl.so
 /system/vendor/lib/libqti_performance.so
-/system/vendor/lib/libquipc_os_api.so
 /system/vendor/lib/libril-qc-qmi-1.so
 /system/vendor/lib/libril-qc-radioconfig.so
 /system/vendor/lib/libril-qcril-hook-oem.so
@@ -1187,9 +1180,6 @@
 /system/vendor/lib/libwvdrm_L1.so
 /system/vendor/lib/libwvdrm_L3.so
 /system/vendor/lib/libxml.so
-/system/vendor/lib/libxt_native.so
-/system/vendor/lib/libxtadapter.so
-/system/vendor/lib/libxtwifi_ulp_adaptor.so
 /system/vendor/lib/mediadrm/libwvdrmengine.so
 /system/vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so
 /system/vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so

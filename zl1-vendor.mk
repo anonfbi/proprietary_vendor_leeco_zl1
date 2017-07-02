@@ -1050,8 +1050,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libflash_i2c.so:system/vendor/lib/libflash_i2c.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/libgdtap.so:system/vendor/lib/libgdtap.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
@@ -1061,10 +1059,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libllvm-qgl.so:system/vendor/lib/libllvm-qgl.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
     vendor/leeco/zl1/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libmdtp.so:system/vendor/lib/libmdtp.so \
@@ -1236,7 +1230,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libqti-wl.so:system/vendor/lib/libqti-wl.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libqti_performance.so:system/vendor/lib/libqti_performance.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libril-qc-radioconfig.so:system/vendor/lib/libril-qc-radioconfig.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
@@ -1268,9 +1261,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/leeco/zl1/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/leeco/zl1/proprietary/vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so:system/vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so \
     vendor/leeco/zl1/proprietary/vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so:system/vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so \
