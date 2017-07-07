@@ -1521,10 +1521,8 @@
 /system/etc/firmware/cyccg_table.cybin
 /system/etc/qvop/poc_64_hmm.gmm
 /system/etc/firmware/modem_pr/mbn_upgrade_info
-/system/app/LetvRemoteControl/LetvRemoteControl.apk
 /system/app/QtiTelephonyService/QtiTelephonyService.apk
 /system/app/TimeService/TimeService.apk
-/system/app/UEIQuicksetSDKLeTV/UEIQuicksetSDKLeTV.apk
 /system/app/datastatusnotification/datastatusnotification.apk
 /system/app/embms/embms.apk
 /system/app/fastdormancy/fastdormancy.apk

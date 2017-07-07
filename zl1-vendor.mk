@@ -1640,11 +1640,9 @@ PRODUCT_PACKAGES += \
     datastatusnotification \
     embms \
     fastdormancy \
-    LetvRemoteControl \
     QtiTelephonyService \
     shutdownlistener \
     TimeService \
-    UEIQuicksetSDKLeTV \
     CNEService \
     com.qualcomm.location \
     dpmserviceapp \

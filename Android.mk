@@ -53,17 +53,6 @@ LOCAL_SRC_FILES := proprietary/app/fastdormancy/fastdormancy.apk
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := LetvRemoteControl
-LOCAL_MODULE_OWNER := leeco
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_MODULE_TAGS := optional
-LOCAL_DEX_PREOPT := false
-LOCAL_CERTIFICATE := platform
-LOCAL_SRC_FILES := proprietary/app/LetvRemoteControl/LetvRemoteControl.apk
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := QtiTelephonyService
 LOCAL_MODULE_OWNER := leeco
 LOCAL_MODULE_CLASS := APPS
@@ -94,17 +83,6 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_DEX_PREOPT := false
 LOCAL_CERTIFICATE := platform
 LOCAL_SRC_FILES := proprietary/app/TimeService/TimeService.apk
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := UEIQuicksetSDKLeTV
-LOCAL_MODULE_OWNER := leeco
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_MODULE_TAGS := optional
-LOCAL_DEX_PREOPT := false
-LOCAL_CERTIFICATE := platform
-LOCAL_SRC_FILES := proprietary/app/UEIQuicksetSDKLeTV/UEIQuicksetSDKLeTV.apk
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
