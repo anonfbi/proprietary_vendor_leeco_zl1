@@ -1631,6 +1631,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/etc/qvop/poc_64_hmm.gmm:system/etc/qvop/poc_64_hmm.gmm
 
+# Certificate Files
+PRODUCT_COPY_FILES += \
+    vendor/leeco/zl1/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
+    vendor/leeco/zl1/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem
+
 # Modem Upgrade Info
 PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/etc/firmware/modem_pr/mbn_upgrade_info:system/etc/firmware/modem_pr/mbn_upgrade_info

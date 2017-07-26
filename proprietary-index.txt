@@ -1520,6 +1520,8 @@
 /system/etc/firmware/cyccg.cybin
 /system/etc/firmware/cyccg_table.cybin
 /system/etc/qvop/poc_64_hmm.gmm
+/system/etc/cacert_location.pem
+/system/etc/xtra_root_cert.pem
 /system/etc/firmware/modem_pr/mbn_upgrade_info
 /system/app/QtiTelephonyService/QtiTelephonyService.apk
 /system/app/TimeService/TimeService.apk

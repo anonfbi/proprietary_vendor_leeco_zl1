@@ -360,6 +360,7 @@ typwrt ".fw"    "Firmware Files (H)"
 typwrt ".fw2"   "Firmware Files (I)"
 typwrt ".cybin" "Type-C Firmware"
 typwrt ".gmm"   "QVOP Firmware"
+typwrt ".pem"   "Certificate Files"
 typwrt "mbn_upgrade_info"  "Modem Upgrade Info"
 ####################
 
