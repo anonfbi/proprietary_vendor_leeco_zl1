@@ -59,6 +59,7 @@ etc/qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video.xml
 etc/sensors/hals.conf
 etc/sensors/sensor_def_qcomdev.conf
 -framework/ConnectivityExt.jar
+-priv-app/dpmserviceapp/dpmserviceapp.apk|f6b0e77918e7bdd00e67c95c65277b625e26d2a7
 vendor/lib/libsensor1.so
 vendor/lib/libsensor_reg.so
 vendor/lib/libsensor_test.so
