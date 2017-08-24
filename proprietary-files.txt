@@ -33,6 +33,7 @@ etc/camera/ov8865_chromatix.xml
 etc/camera/ov8865_ofilm_chromatix.xml
 etc/camera/ov8865_ofilm_plus_chromatix.xml
 etc/camera/ov8865_sunny_chromatix.xml
+etc/firmware/nfc_test.bin
 etc/firmware/nvm_tlv.bin
 etc/firmware/nvm_tlv_1.3.bin
 etc/firmware/nvm_tlv_2.1.bin
@@ -43,5 +44,14 @@ etc/firmware/rampatch_tlv_1.3.tlv
 etc/firmware/rampatch_tlv_2.1.tlv
 etc/firmware/rampatch_tlv_3.0.tlv
 etc/firmware/rampatch_tlv_3.2.tlv
+etc/firmware/widevine.b00
+etc/firmware/widevine.b01
+etc/firmware/widevine.b02
+etc/firmware/widevine.b03
+etc/firmware/widevine.b04
+etc/firmware/widevine.b05
+etc/firmware/widevine.b06
+etc/firmware/widevine.mbn
+etc/firmware/widevine.mdt
 etc/qdcm_calib_data_mdss_dsi_ft8716_1080p_video.xml
 etc/qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video.xml

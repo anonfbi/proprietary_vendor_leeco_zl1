@@ -48,6 +48,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/etc/camera/ov8865_ofilm_chromatix.xml:system/etc/camera/ov8865_ofilm_chromatix.xml \
     vendor/leeco/zl1/proprietary/etc/camera/ov8865_ofilm_plus_chromatix.xml:system/etc/camera/ov8865_ofilm_plus_chromatix.xml \
     vendor/leeco/zl1/proprietary/etc/camera/ov8865_sunny_chromatix.xml:system/etc/camera/ov8865_sunny_chromatix.xml \
+    vendor/leeco/zl1/proprietary/etc/firmware/nfc_test.bin:system/etc/firmware/nfc_test.bin \
     vendor/leeco/zl1/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
     vendor/leeco/zl1/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
     vendor/leeco/zl1/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
@@ -58,5 +59,14 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
     vendor/leeco/zl1/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
     vendor/leeco/zl1/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
+    vendor/leeco/zl1/proprietary/etc/firmware/widevine.b00:system/etc/firmware/widevine.b00 \
+    vendor/leeco/zl1/proprietary/etc/firmware/widevine.b01:system/etc/firmware/widevine.b01 \
+    vendor/leeco/zl1/proprietary/etc/firmware/widevine.b02:system/etc/firmware/widevine.b02 \
+    vendor/leeco/zl1/proprietary/etc/firmware/widevine.b03:system/etc/firmware/widevine.b03 \
+    vendor/leeco/zl1/proprietary/etc/firmware/widevine.b04:system/etc/firmware/widevine.b04 \
+    vendor/leeco/zl1/proprietary/etc/firmware/widevine.b05:system/etc/firmware/widevine.b05 \
+    vendor/leeco/zl1/proprietary/etc/firmware/widevine.b06:system/etc/firmware/widevine.b06 \
+    vendor/leeco/zl1/proprietary/etc/firmware/widevine.mbn:system/etc/firmware/widevine.mbn \
+    vendor/leeco/zl1/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
     vendor/leeco/zl1/proprietary/etc/qdcm_calib_data_mdss_dsi_ft8716_1080p_video.xml:system/etc/qdcm_calib_data_mdss_dsi_ft8716_1080p_video.xml \
     vendor/leeco/zl1/proprietary/etc/qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video.xml:system/etc/qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video.xml
