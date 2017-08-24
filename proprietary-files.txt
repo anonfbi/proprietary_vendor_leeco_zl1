@@ -55,3 +55,13 @@ etc/firmware/widevine.mbn
 etc/firmware/widevine.mdt
 etc/qdcm_calib_data_mdss_dsi_ft8716_1080p_video.xml
 etc/qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video.xml
+etc/sensors/hals.conf
+etc/sensors/sensor_def_qcomdev.conf
+vendor/lib/libsensor1.so
+vendor/lib/libsensor_reg.so
+vendor/lib/libsensor_test.so
+vendor/lib/sensors.oem.so
+vendor/lib/sensors.ssc.so
+vendor/lib64/sensors.hal.tof.so
+vendor/lib64/sensors.oem.so
+vendor/lib64/sensors.ssc.so
