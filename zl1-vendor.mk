@@ -149,6 +149,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
     vendor/leeco/zl1/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/leeco/zl1/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
+    vendor/leeco/zl1/proprietary/vendor/bin/mdtpd:system/vendor/bin/mdtpd \
+    vendor/leeco/zl1/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/leeco/zl1/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/leeco/zl1/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
     vendor/leeco/zl1/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
@@ -164,6 +166,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/etc/perf-profile5.conf:system/vendor/etc/perf-profile5.conf \
     vendor/leeco/zl1/proprietary/vendor/etc/perf-profile6.conf:system/vendor/etc/perf-profile6.conf \
     vendor/leeco/zl1/proprietary/vendor/etc/public.libraries.txt:system/vendor/etc/public.libraries.txt \
+    vendor/leeco/zl1/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
     vendor/leeco/zl1/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/leeco/zl1/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/leeco/zl1/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -176,6 +179,211 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/hw/keystore.msm8996.so:system/vendor/lib/hw/keystore.msm8996.so \
     vendor/leeco/zl1/proprietary/vendor/lib/hw/sound_trigger.primary.msm8996.so:system/vendor/lib/hw/sound_trigger.primary.msm8996.so \
     vendor/leeco/zl1/proprietary/vendor/lib/hw/vulkan.msm8996.so:system/vendor/lib/hw/vulkan.msm8996.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libSonyIMX298PdafLibrary.so:system/vendor/lib/libSonyIMX298PdafLibrary.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libSonyIMX298_ofilm_PdafLibrary.so:system/vendor/lib/libSonyIMX298_ofilm_PdafLibrary.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libSonyIMX298_ofilm_ak_PdafLibrary.so:system/vendor/lib/libSonyIMX298_ofilm_ak_PdafLibrary.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libSonyIMX298_truly_ak_PdafLibrary.so:system/vendor/lib/libSonyIMX298_truly_ak_PdafLibrary.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libactuator_dw9714.so:system/vendor/lib/libactuator_dw9714.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libactuator_dw9800w.so:system/vendor/lib/libactuator_dw9800w.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libactuator_lc898122.so:system/vendor/lib/libactuator_lc898122.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libactuator_lc898212xd.so:system/vendor/lib/libactuator_lc898212xd.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_1080p_preview.so:system/vendor/lib/libchromatix_imx298_1080p_preview.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_1080p_snapshot.so:system/vendor/lib/libchromatix_imx298_1080p_snapshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_1080p_video.so:system/vendor/lib/libchromatix_imx298_1080p_video.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_4K_preview.so:system/vendor/lib/libchromatix_imx298_4K_preview.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_4K_snapshot.so:system/vendor/lib/libchromatix_imx298_4K_snapshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_4K_video.so:system/vendor/lib/libchromatix_imx298_4K_video.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_common.so:system/vendor/lib/libchromatix_imx298_common.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_cpp_1080p_snapshot.so:system/vendor/lib/libchromatix_imx298_cpp_1080p_snapshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_cpp_4K_snapshot.so:system/vendor/lib/libchromatix_imx298_cpp_4K_snapshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_cpp_default_snapshot.so:system/vendor/lib/libchromatix_imx298_cpp_default_snapshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_cpp_hdr_snapshot.so:system/vendor/lib/libchromatix_imx298_cpp_hdr_snapshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx298_cpp_hfr_120.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_cpp_zsl_preview.so:system/vendor/lib/libchromatix_imx298_cpp_zsl_preview.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_cpp_zsl_snapshot.so:system/vendor/lib/libchromatix_imx298_cpp_zsl_snapshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_default_preview.so:system/vendor/lib/libchromatix_imx298_default_preview.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_default_snapshot.so:system/vendor/lib/libchromatix_imx298_default_snapshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_default_video.so:system/vendor/lib/libchromatix_imx298_default_video.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_hdr_preview.so:system/vendor/lib/libchromatix_imx298_hdr_preview.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_hdr_snapshot.so:system/vendor/lib/libchromatix_imx298_hdr_snapshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_hdr_video.so:system/vendor/lib/libchromatix_imx298_hdr_video.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_hfr_120.so:system/vendor/lib/libchromatix_imx298_hfr_120.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_hfr_120_preview.so:system/vendor/lib/libchromatix_imx298_hfr_120_preview.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_hfr_120_video.so:system/vendor/lib/libchromatix_imx298_hfr_120_video.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_4K_preview.so:system/vendor/lib/libchromatix_imx298_ofilm_4K_preview.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_4K_video.so:system/vendor/lib/libchromatix_imx298_ofilm_4K_video.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_ak_1080p_preview.so:system/vendor/lib/libchromatix_imx298_ofilm_ak_1080p_preview.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_ak_1080p_snapshot.so:system/vendor/lib/libchromatix_imx298_ofilm_ak_1080p_snapshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_ak_1080p_video.so:system/vendor/lib/libchromatix_imx298_ofilm_ak_1080p_video.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_ak_4K_preview.so:system/vendor/lib/libchromatix_imx298_ofilm_ak_4K_preview.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_ak_4K_snapshot.so:system/vendor/lib/libchromatix_imx298_ofilm_ak_4K_snapshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_ak_4K_video.so:system/vendor/lib/libchromatix_imx298_ofilm_ak_4K_video.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_ak_common.so:system/vendor/lib/libchromatix_imx298_ofilm_ak_common.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_ak_cpp_1080p_snapshot.so:system/vendor/lib/libchromatix_imx298_ofilm_ak_cpp_1080p_snapshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_ak_cpp_4K_snapshot.so:system/vendor/lib/libchromatix_imx298_ofilm_ak_cpp_4K_snapshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_ak_cpp_default_snapshot.so:system/vendor/lib/libchromatix_imx298_ofilm_ak_cpp_default_snapshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_ak_cpp_hdr_snapshot.so:system/vendor/lib/libchromatix_imx298_ofilm_ak_cpp_hdr_snapshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_ak_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx298_ofilm_ak_cpp_hfr_120.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_ak_cpp_zsl_preview.so:system/vendor/lib/libchromatix_imx298_ofilm_ak_cpp_zsl_preview.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_ak_cpp_zsl_snapshot.so:system/vendor/lib/libchromatix_imx298_ofilm_ak_cpp_zsl_snapshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_ak_default_preview.so:system/vendor/lib/libchromatix_imx298_ofilm_ak_default_preview.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_ak_default_snapshot.so:system/vendor/lib/libchromatix_imx298_ofilm_ak_default_snapshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_ak_default_video.so:system/vendor/lib/libchromatix_imx298_ofilm_ak_default_video.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_ak_hdr_preview.so:system/vendor/lib/libchromatix_imx298_ofilm_ak_hdr_preview.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_ak_hdr_snapshot.so:system/vendor/lib/libchromatix_imx298_ofilm_ak_hdr_snapshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_ak_hdr_video.so:system/vendor/lib/libchromatix_imx298_ofilm_ak_hdr_video.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_ak_hfr_120.so:system/vendor/lib/libchromatix_imx298_ofilm_ak_hfr_120.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_ak_hfr_120_preview.so:system/vendor/lib/libchromatix_imx298_ofilm_ak_hfr_120_preview.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_ak_hfr_120_video.so:system/vendor/lib/libchromatix_imx298_ofilm_ak_hfr_120_video.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_ak_postproc.so:system/vendor/lib/libchromatix_imx298_ofilm_ak_postproc.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_ak_zsl_preview.so:system/vendor/lib/libchromatix_imx298_ofilm_ak_zsl_preview.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_ak_zsl_snapshot.so:system/vendor/lib/libchromatix_imx298_ofilm_ak_zsl_snapshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_ak_zsl_video.so:system/vendor/lib/libchromatix_imx298_ofilm_ak_zsl_video.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_common.so:system/vendor/lib/libchromatix_imx298_ofilm_common.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx298_ofilm_cpp_hfr_120.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx298_ofilm_cpp_hfr_60.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx298_ofilm_cpp_hfr_90.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_cpp_liveshot.so:system/vendor/lib/libchromatix_imx298_ofilm_cpp_liveshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_cpp_preview.so:system/vendor/lib/libchromatix_imx298_ofilm_cpp_preview.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_cpp_snapshot.so:system/vendor/lib/libchromatix_imx298_ofilm_cpp_snapshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx298_ofilm_cpp_snapshot_hdr.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_cpp_video.so:system/vendor/lib/libchromatix_imx298_ofilm_cpp_video.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx298_ofilm_cpp_video_hdr.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_default_preview.so:system/vendor/lib/libchromatix_imx298_ofilm_default_preview.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_default_video.so:system/vendor/lib/libchromatix_imx298_ofilm_default_video.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_hdr_snapshot_3a.so:system/vendor/lib/libchromatix_imx298_ofilm_hdr_snapshot_3a.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_hdr_video_3a.so:system/vendor/lib/libchromatix_imx298_ofilm_hdr_video_3a.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_hfr_120.so:system/vendor/lib/libchromatix_imx298_ofilm_hfr_120.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_hfr_120_3a.so:system/vendor/lib/libchromatix_imx298_ofilm_hfr_120_3a.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_hfr_60.so:system/vendor/lib/libchromatix_imx298_ofilm_hfr_60.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_hfr_60_3a.so:system/vendor/lib/libchromatix_imx298_ofilm_hfr_60_3a.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_hfr_90.so:system/vendor/lib/libchromatix_imx298_ofilm_hfr_90.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_hfr_90_3a.so:system/vendor/lib/libchromatix_imx298_ofilm_hfr_90_3a.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_postproc.so:system/vendor/lib/libchromatix_imx298_ofilm_postproc.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_preview.so:system/vendor/lib/libchromatix_imx298_ofilm_preview.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_snapshot.so:system/vendor/lib/libchromatix_imx298_ofilm_snapshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_snapshot_hdr.so:system/vendor/lib/libchromatix_imx298_ofilm_snapshot_hdr.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_video.so:system/vendor/lib/libchromatix_imx298_ofilm_video.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_video_hdr.so:system/vendor/lib/libchromatix_imx298_ofilm_video_hdr.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_zsl_preview.so:system/vendor/lib/libchromatix_imx298_ofilm_zsl_preview.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_ofilm_zsl_video.so:system/vendor/lib/libchromatix_imx298_ofilm_zsl_video.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_postproc.so:system/vendor/lib/libchromatix_imx298_postproc.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_truly_ak_1080p_preview.so:system/vendor/lib/libchromatix_imx298_truly_ak_1080p_preview.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_truly_ak_1080p_snapshot.so:system/vendor/lib/libchromatix_imx298_truly_ak_1080p_snapshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_truly_ak_1080p_video.so:system/vendor/lib/libchromatix_imx298_truly_ak_1080p_video.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_truly_ak_4K_preview.so:system/vendor/lib/libchromatix_imx298_truly_ak_4K_preview.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_truly_ak_4K_snapshot.so:system/vendor/lib/libchromatix_imx298_truly_ak_4K_snapshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_truly_ak_4K_video.so:system/vendor/lib/libchromatix_imx298_truly_ak_4K_video.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_truly_ak_common.so:system/vendor/lib/libchromatix_imx298_truly_ak_common.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_truly_ak_cpp_1080p_snapshot.so:system/vendor/lib/libchromatix_imx298_truly_ak_cpp_1080p_snapshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_truly_ak_cpp_4K_snapshot.so:system/vendor/lib/libchromatix_imx298_truly_ak_cpp_4K_snapshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_truly_ak_cpp_default_snapshot.so:system/vendor/lib/libchromatix_imx298_truly_ak_cpp_default_snapshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_truly_ak_cpp_hdr_snapshot.so:system/vendor/lib/libchromatix_imx298_truly_ak_cpp_hdr_snapshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_truly_ak_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx298_truly_ak_cpp_hfr_120.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_truly_ak_cpp_zsl_preview.so:system/vendor/lib/libchromatix_imx298_truly_ak_cpp_zsl_preview.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_truly_ak_cpp_zsl_snapshot.so:system/vendor/lib/libchromatix_imx298_truly_ak_cpp_zsl_snapshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_truly_ak_default_preview.so:system/vendor/lib/libchromatix_imx298_truly_ak_default_preview.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_truly_ak_default_snapshot.so:system/vendor/lib/libchromatix_imx298_truly_ak_default_snapshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_truly_ak_default_video.so:system/vendor/lib/libchromatix_imx298_truly_ak_default_video.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_truly_ak_hdr_preview.so:system/vendor/lib/libchromatix_imx298_truly_ak_hdr_preview.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_truly_ak_hdr_snapshot.so:system/vendor/lib/libchromatix_imx298_truly_ak_hdr_snapshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_truly_ak_hdr_video.so:system/vendor/lib/libchromatix_imx298_truly_ak_hdr_video.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_truly_ak_hfr_120.so:system/vendor/lib/libchromatix_imx298_truly_ak_hfr_120.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_truly_ak_hfr_120_preview.so:system/vendor/lib/libchromatix_imx298_truly_ak_hfr_120_preview.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_truly_ak_hfr_120_video.so:system/vendor/lib/libchromatix_imx298_truly_ak_hfr_120_video.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_truly_ak_postproc.so:system/vendor/lib/libchromatix_imx298_truly_ak_postproc.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_truly_ak_zsl_preview.so:system/vendor/lib/libchromatix_imx298_truly_ak_zsl_preview.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_truly_ak_zsl_snapshot.so:system/vendor/lib/libchromatix_imx298_truly_ak_zsl_snapshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_truly_ak_zsl_video.so:system/vendor/lib/libchromatix_imx298_truly_ak_zsl_video.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_zsl_preview.so:system/vendor/lib/libchromatix_imx298_zsl_preview.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_zsl_snapshot.so:system/vendor/lib/libchromatix_imx298_zsl_snapshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_imx298_zsl_video.so:system/vendor/lib/libchromatix_imx298_zsl_video.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_common.so:system/vendor/lib/libchromatix_ov8865_common.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_ov8865_cpp_ds_chromatix.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov8865_cpp_hfr_120.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_cpp_hfr_60.so:system/vendor/lib/libchromatix_ov8865_cpp_hfr_60.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_cpp_hfr_90.so:system/vendor/lib/libchromatix_ov8865_cpp_hfr_90.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_cpp_liveshot.so:system/vendor/lib/libchromatix_ov8865_cpp_liveshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_cpp_preview.so:system/vendor/lib/libchromatix_ov8865_cpp_preview.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_cpp_snapshot.so:system/vendor/lib/libchromatix_ov8865_cpp_snapshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_cpp_us_chromatix.so:system/vendor/lib/libchromatix_ov8865_cpp_us_chromatix.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_cpp_video.so:system/vendor/lib/libchromatix_ov8865_cpp_video.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_cpp_video_full.so:system/vendor/lib/libchromatix_ov8865_cpp_video_full.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_default_preview_dw9714.so:system/vendor/lib/libchromatix_ov8865_default_preview_dw9714.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_default_video.so:system/vendor/lib/libchromatix_ov8865_default_video.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_default_video_dw9714.so:system/vendor/lib/libchromatix_ov8865_default_video_dw9714.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_hfr_120.so:system/vendor/lib/libchromatix_ov8865_hfr_120.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_hfr_120_dw9714.so:system/vendor/lib/libchromatix_ov8865_hfr_120_dw9714.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_hfr_60.so:system/vendor/lib/libchromatix_ov8865_hfr_60.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_hfr_60_dw9714.so:system/vendor/lib/libchromatix_ov8865_hfr_60_dw9714.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_hfr_90.so:system/vendor/lib/libchromatix_ov8865_hfr_90.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_hfr_90_dw9714.so:system/vendor/lib/libchromatix_ov8865_hfr_90_dw9714.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_ofilm_plus_common.so:system/vendor/lib/libchromatix_ov8865_ofilm_plus_common.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_ofilm_plus_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_ov8865_ofilm_plus_cpp_ds_chromatix.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_ofilm_plus_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov8865_ofilm_plus_cpp_hfr_120.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_ofilm_plus_cpp_hfr_60.so:system/vendor/lib/libchromatix_ov8865_ofilm_plus_cpp_hfr_60.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_ofilm_plus_cpp_hfr_90.so:system/vendor/lib/libchromatix_ov8865_ofilm_plus_cpp_hfr_90.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_ofilm_plus_cpp_liveshot.so:system/vendor/lib/libchromatix_ov8865_ofilm_plus_cpp_liveshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_ofilm_plus_cpp_preview.so:system/vendor/lib/libchromatix_ov8865_ofilm_plus_cpp_preview.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_ofilm_plus_cpp_snapshot.so:system/vendor/lib/libchromatix_ov8865_ofilm_plus_cpp_snapshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_ofilm_plus_cpp_us_chromatix.so:system/vendor/lib/libchromatix_ov8865_ofilm_plus_cpp_us_chromatix.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_ofilm_plus_cpp_video.so:system/vendor/lib/libchromatix_ov8865_ofilm_plus_cpp_video.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_ofilm_plus_cpp_video_full.so:system/vendor/lib/libchromatix_ov8865_ofilm_plus_cpp_video_full.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_ofilm_plus_default_preview_dw9714.so:system/vendor/lib/libchromatix_ov8865_ofilm_plus_default_preview_dw9714.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_ofilm_plus_default_video.so:system/vendor/lib/libchromatix_ov8865_ofilm_plus_default_video.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_ofilm_plus_default_video_dw9714.so:system/vendor/lib/libchromatix_ov8865_ofilm_plus_default_video_dw9714.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_ofilm_plus_hfr_120.so:system/vendor/lib/libchromatix_ov8865_ofilm_plus_hfr_120.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_ofilm_plus_hfr_120_dw9714.so:system/vendor/lib/libchromatix_ov8865_ofilm_plus_hfr_120_dw9714.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_ofilm_plus_hfr_60.so:system/vendor/lib/libchromatix_ov8865_ofilm_plus_hfr_60.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_ofilm_plus_hfr_60_dw9714.so:system/vendor/lib/libchromatix_ov8865_ofilm_plus_hfr_60_dw9714.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_ofilm_plus_hfr_90.so:system/vendor/lib/libchromatix_ov8865_ofilm_plus_hfr_90.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_ofilm_plus_hfr_90_dw9714.so:system/vendor/lib/libchromatix_ov8865_ofilm_plus_hfr_90_dw9714.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_ofilm_plus_postproc.so:system/vendor/lib/libchromatix_ov8865_ofilm_plus_postproc.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_ofilm_plus_preview.so:system/vendor/lib/libchromatix_ov8865_ofilm_plus_preview.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_ofilm_plus_snapshot.so:system/vendor/lib/libchromatix_ov8865_ofilm_plus_snapshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_ofilm_plus_video_full.so:system/vendor/lib/libchromatix_ov8865_ofilm_plus_video_full.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_ofilm_plus_zsl_preview.so:system/vendor/lib/libchromatix_ov8865_ofilm_plus_zsl_preview.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_ofilm_plus_zsl_video.so:system/vendor/lib/libchromatix_ov8865_ofilm_plus_zsl_video.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_postproc.so:system/vendor/lib/libchromatix_ov8865_postproc.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_preview.so:system/vendor/lib/libchromatix_ov8865_preview.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_snapshot.so:system/vendor/lib/libchromatix_ov8865_snapshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_sunny_common.so:system/vendor/lib/libchromatix_ov8865_sunny_common.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_sunny_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_ov8865_sunny_cpp_ds_chromatix.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_sunny_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov8865_sunny_cpp_hfr_120.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_sunny_cpp_hfr_60.so:system/vendor/lib/libchromatix_ov8865_sunny_cpp_hfr_60.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_sunny_cpp_hfr_90.so:system/vendor/lib/libchromatix_ov8865_sunny_cpp_hfr_90.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_sunny_cpp_liveshot.so:system/vendor/lib/libchromatix_ov8865_sunny_cpp_liveshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_sunny_cpp_preview.so:system/vendor/lib/libchromatix_ov8865_sunny_cpp_preview.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_sunny_cpp_snapshot.so:system/vendor/lib/libchromatix_ov8865_sunny_cpp_snapshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_sunny_cpp_us_chromatix.so:system/vendor/lib/libchromatix_ov8865_sunny_cpp_us_chromatix.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_sunny_cpp_video.so:system/vendor/lib/libchromatix_ov8865_sunny_cpp_video.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_sunny_cpp_video_full.so:system/vendor/lib/libchromatix_ov8865_sunny_cpp_video_full.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_sunny_default_preview_dw9714.so:system/vendor/lib/libchromatix_ov8865_sunny_default_preview_dw9714.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_sunny_default_video.so:system/vendor/lib/libchromatix_ov8865_sunny_default_video.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_sunny_default_video_dw9714.so:system/vendor/lib/libchromatix_ov8865_sunny_default_video_dw9714.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_sunny_hfr_120.so:system/vendor/lib/libchromatix_ov8865_sunny_hfr_120.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_sunny_hfr_120_dw9714.so:system/vendor/lib/libchromatix_ov8865_sunny_hfr_120_dw9714.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_sunny_hfr_60.so:system/vendor/lib/libchromatix_ov8865_sunny_hfr_60.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_sunny_hfr_60_dw9714.so:system/vendor/lib/libchromatix_ov8865_sunny_hfr_60_dw9714.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_sunny_hfr_90.so:system/vendor/lib/libchromatix_ov8865_sunny_hfr_90.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_sunny_hfr_90_dw9714.so:system/vendor/lib/libchromatix_ov8865_sunny_hfr_90_dw9714.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_sunny_postproc.so:system/vendor/lib/libchromatix_ov8865_sunny_postproc.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_sunny_preview.so:system/vendor/lib/libchromatix_ov8865_sunny_preview.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_sunny_snapshot.so:system/vendor/lib/libchromatix_ov8865_sunny_snapshot.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_sunny_video_full.so:system/vendor/lib/libchromatix_ov8865_sunny_video_full.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_sunny_zsl_preview.so:system/vendor/lib/libchromatix_ov8865_sunny_zsl_preview.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_sunny_zsl_video.so:system/vendor/lib/libchromatix_ov8865_sunny_zsl_video.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_video_full.so:system/vendor/lib/libchromatix_ov8865_video_full.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_zsl_preview.so:system/vendor/lib/libchromatix_ov8865_zsl_preview.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libchromatix_ov8865_zsl_video.so:system/vendor/lib/libchromatix_ov8865_zsl_video.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libflash_i2c.so:system/vendor/lib/libflash_i2c.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmdtp.so:system/vendor/lib/libmdtp.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmdtp_crypto.so:system/vendor/lib/libmdtp_crypto.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmdtpdemojni.so:system/vendor/lib/libmdtpdemojni.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
@@ -311,6 +519,12 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/test_suite_no_sensor.so:system/vendor/lib/test_suite_no_sensor.so \
     vendor/leeco/zl1/proprietary/vendor/lib/test_suite_pproc.so:system/vendor/lib/test_suite_pproc.so \
     vendor/leeco/zl1/proprietary/vendor/lib/test_suite_vfe.so:system/vendor/lib/test_suite_vfe.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libmdtp.so:system/vendor/lib64/libmdtp.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libmdtp_crypto.so:system/vendor/lib64/libmdtp_crypto.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libmdtpdemojni.so:system/vendor/lib64/libmdtpdemojni.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libmm-dspp-utils.so:system/vendor/lib64/libmm-dspp-utils.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libmm-qdcm-diag.so:system/vendor/lib64/libmm-qdcm-diag.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libqcproximity.so:system/vendor/lib64/libqcproximity.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libual.so:system/vendor/lib64/libual.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libualutil.so:system/vendor/lib64/libualutil.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
