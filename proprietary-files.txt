@@ -1,3 +1,9 @@
+-app/QtiTelephonyService/QtiTelephonyService.apk|b4ab7c71923714449fcb201089aeb400ad7c43d8
+-app/TimeService/TimeService.apk|e11f6e28aeb986f3d5b62878e313faf763eb875d
+-app/datastatusnotification/datastatusnotification.apk|98d797f72772ac21e23f4570d19bdaa7f06e8414
+-app/embms/embms.apk|5a8b7cb0502500dc4b9a6d2d0bc56dbcf4e5a7a0
+-app/fastdormancy/fastdormancy.apk|543a5b99a1b189d93d94caf5cf2553933968b9dc
+-app/shutdownlistener/shutdownlistener.apk|a1622cc3fbc6d9ac0be19b793bd9aa230b74c86b
 bin/adsprpcd
 bin/ATFWD-daemon
 bin/btnvtool
@@ -58,7 +64,7 @@ etc/qdcm_calib_data_mdss_dsi_ft8716_1080p_video.xml
 etc/qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video.xml
 etc/sensors/hals.conf
 etc/sensors/sensor_def_qcomdev.conf
--framework/ConnectivityExt.jar
+-framework/ConnectivityExt.jar|67025d09bbc7bb87bca1d15ab9c133eeb1ef2b9d
 -priv-app/dpmserviceapp/dpmserviceapp.apk|f6b0e77918e7bdd00e67c95c65277b625e26d2a7
 vendor/lib/libsensor1.so
 vendor/lib/libsensor_reg.so
