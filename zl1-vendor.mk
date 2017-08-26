@@ -176,9 +176,111 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/hw/keystore.msm8996.so:system/vendor/lib/hw/keystore.msm8996.so \
     vendor/leeco/zl1/proprietary/vendor/lib/hw/sound_trigger.primary.msm8996.so:system/vendor/lib/hw/sound_trigger.primary.msm8996.so \
     vendor/leeco/zl1/proprietary/vendor/lib/hw/vulkan.msm8996.so:system/vendor/lib/hw/vulkan.msm8996.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera2_mct.so:system/vendor/lib/libmmcamera2_mct.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera2_memleak.so:system/vendor/lib/libmmcamera2_memleak.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera2_pp_buf_mgr.so:system/vendor/lib/libmmcamera2_pp_buf_mgr.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera2_q3a_core.so:system/vendor/lib/libmmcamera2_q3a_core.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_csidtg.so:system/vendor/lib/libmmcamera_csidtg.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_dbg.so:system/vendor/lib/libmmcamera_dbg.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_dummyalgo.so:system/vendor/lib/libmmcamera_dummyalgo.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_eebinparse.so:system/vendor/lib/libmmcamera_eebinparse.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_eeprom_util.so:system/vendor/lib/libmmcamera_eeprom_util.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_eztune_module.so:system/vendor/lib/libmmcamera_eztune_module.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_facedetection_lib.so:system/vendor/lib/libmmcamera_facedetection_lib.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_faceproc2.so:system/vendor/lib/libmmcamera_faceproc2.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_hvx_add_constant.so:system/vendor/lib/libmmcamera_hvx_add_constant.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_hvx_grid_sum.so:system/vendor/lib/libmmcamera_hvx_grid_sum.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_hvx_zzHDR.so:system/vendor/lib/libmmcamera_hvx_zzHDR.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_imglib_faceproc_adspstub.so:system/vendor/lib/libmmcamera_imglib_faceproc_adspstub.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_imx298.so:system/vendor/lib/libmmcamera_imx298.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_imx298_ofilm.so:system/vendor/lib/libmmcamera_imx298_ofilm.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_imx298_ofilm_ak.so:system/vendor/lib/libmmcamera_imx298_ofilm_ak.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_imx298_truly_ak.so:system/vendor/lib/libmmcamera_imx298_truly_ak.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_abf47.so:system/vendor/lib/libmmcamera_isp_abf47.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_aec_bg_stats47.so:system/vendor/lib/libmmcamera_isp_aec_bg_stats47.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_bf_stats47.so:system/vendor/lib/libmmcamera_isp_bf_stats47.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_bg_stats46.so:system/vendor/lib/libmmcamera_isp_bg_stats46.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_bhist_stats44.so:system/vendor/lib/libmmcamera_isp_bhist_stats44.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_black_level47.so:system/vendor/lib/libmmcamera_isp_black_level47.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_bpc47.so:system/vendor/lib/libmmcamera_isp_bpc47.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_cac47.so:system/vendor/lib/libmmcamera_isp_cac47.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_chroma_enhan40.so:system/vendor/lib/libmmcamera_isp_chroma_enhan40.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_chroma_suppress40.so:system/vendor/lib/libmmcamera_isp_chroma_suppress40.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_clamp_encoder40.so:system/vendor/lib/libmmcamera_isp_clamp_encoder40.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_clamp_video40.so:system/vendor/lib/libmmcamera_isp_clamp_video40.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_clamp_viewfinder40.so:system/vendor/lib/libmmcamera_isp_clamp_viewfinder40.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_color_correct46.so:system/vendor/lib/libmmcamera_isp_color_correct46.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_color_xform_encoder46.so:system/vendor/lib/libmmcamera_isp_color_xform_encoder46.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_color_xform_video46.so:system/vendor/lib/libmmcamera_isp_color_xform_video46.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_color_xform_viewfinder46.so:system/vendor/lib/libmmcamera_isp_color_xform_viewfinder46.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_cs_stats46.so:system/vendor/lib/libmmcamera_isp_cs_stats46.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_demosaic47.so:system/vendor/lib/libmmcamera_isp_demosaic47.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_demux40.so:system/vendor/lib/libmmcamera_isp_demux40.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_fovcrop_encoder46.so:system/vendor/lib/libmmcamera_isp_fovcrop_encoder46.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_fovcrop_video46.so:system/vendor/lib/libmmcamera_isp_fovcrop_video46.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_fovcrop_viewfinder46.so:system/vendor/lib/libmmcamera_isp_fovcrop_viewfinder46.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_gamma44.so:system/vendor/lib/libmmcamera_isp_gamma44.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_gic46.so:system/vendor/lib/libmmcamera_isp_gic46.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_gtm46.so:system/vendor/lib/libmmcamera_isp_gtm46.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_hdr46.so:system/vendor/lib/libmmcamera_isp_hdr46.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_hdr_be_stats46.so:system/vendor/lib/libmmcamera_isp_hdr_be_stats46.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_ihist_stats46.so:system/vendor/lib/libmmcamera_isp_ihist_stats46.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_linearization40.so:system/vendor/lib/libmmcamera_isp_linearization40.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_ltm47.so:system/vendor/lib/libmmcamera_isp_ltm47.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_mce40.so:system/vendor/lib/libmmcamera_isp_mce40.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_mesh_rolloff44.so:system/vendor/lib/libmmcamera_isp_mesh_rolloff44.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_pedestal_correct46.so:system/vendor/lib/libmmcamera_isp_pedestal_correct46.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_rs_stats46.so:system/vendor/lib/libmmcamera_isp_rs_stats46.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_scaler_encoder46.so:system/vendor/lib/libmmcamera_isp_scaler_encoder46.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_scaler_video46.so:system/vendor/lib/libmmcamera_isp_scaler_video46.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_scaler_viewfinder46.so:system/vendor/lib/libmmcamera_isp_scaler_viewfinder46.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_sce40.so:system/vendor/lib/libmmcamera_isp_sce40.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_snr47.so:system/vendor/lib/libmmcamera_isp_snr47.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:system/vendor/lib/libmmcamera_isp_sub_module.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_ov8865.so:system/vendor/lib/libmmcamera_ov8865.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_ov8865_eeprom.so:system/vendor/lib/libmmcamera_ov8865_eeprom.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_ov8865_ofilm.so:system/vendor/lib/libmmcamera_ov8865_ofilm.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_ov8865_ofilm_plus.so:system/vendor/lib/libmmcamera_ov8865_ofilm_plus.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_ov8865_plus_eeprom.so:system/vendor/lib/libmmcamera_ov8865_plus_eeprom.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_ov8865_sunny.so:system/vendor/lib/libmmcamera_ov8865_sunny.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_paaf_lib.so:system/vendor/lib/libmmcamera_paaf_lib.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_ppeiscore.so:system/vendor/lib/libmmcamera_ppeiscore.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_sony_imx298_eeprom.so:system/vendor/lib/libmmcamera_sony_imx298_eeprom.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_sunny_8865_eeprom.so:system/vendor/lib/libmmcamera_sunny_8865_eeprom.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_thread_services.so:system/vendor/lib/libmmcamera_thread_services.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmcamera_tuning_lookup.so:system/vendor/lib/libmmcamera_tuning_lookup.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libqcproximity.so:system/vendor/lib/libqcproximity.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libsensor_test.so:system/vendor/lib/libsensor_test.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libual.so:system/vendor/lib/libual.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libualutil.so:system/vendor/lib/libualutil.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libusndroute.so:system/vendor/lib/libusndroute.so \
     vendor/leeco/zl1/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/leeco/zl1/proprietary/vendor/lib/rfsa/adsp/libadsp_fd_skel.so:system/vendor/lib/rfsa/adsp/libadsp_fd_skel.so \
     vendor/leeco/zl1/proprietary/vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so:system/vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so \
@@ -205,6 +307,14 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/leeco/zl1/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/leeco/zl1/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/test_suite_all_modules.so:system/vendor/lib/test_suite_all_modules.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/test_suite_no_sensor.so:system/vendor/lib/test_suite_no_sensor.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/test_suite_pproc.so:system/vendor/lib/test_suite_pproc.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/test_suite_vfe.so:system/vendor/lib/test_suite_vfe.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libual.so:system/vendor/lib64/libual.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libualutil.so:system/vendor/lib64/libualutil.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libusndroute.so:system/vendor/lib64/libusndroute.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/sensors.hal.tof.so:system/vendor/lib64/sensors.hal.tof.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/sensors.oem.so:system/vendor/lib64/sensors.oem.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
