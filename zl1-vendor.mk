@@ -39,6 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/leeco/zl1/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/leeco/zl1/proprietary/bin/yep_qmi_server:system/bin/yep_qmi_server \
+    vendor/leeco/zl1/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
     vendor/leeco/zl1/proprietary/etc/camera/imx298_chromatix.xml:system/etc/camera/imx298_chromatix.xml \
     vendor/leeco/zl1/proprietary/etc/camera/imx298_ofilm_ak_chromatix.xml:system/etc/camera/imx298_ofilm_ak_chromatix.xml \
     vendor/leeco/zl1/proprietary/etc/camera/imx298_ofilm_chromatix.xml:system/etc/camera/imx298_ofilm_chromatix.xml \
@@ -95,6 +96,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/etc/qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video.xml:system/etc/qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video.xml \
     vendor/leeco/zl1/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
     vendor/leeco/zl1/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
+    vendor/leeco/zl1/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/leeco/zl1/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libsensor_test.so:system/vendor/lib/libsensor_test.so \

@@ -30,6 +30,7 @@ bin/tftp_server
 bin/time_daemon
 bin/wcnss_filter
 bin/yep_qmi_server
+etc/cacert_location.pem|0789bf799c7e45d352a83e2f79ddb0cea86db85b
 etc/camera/imx298_chromatix.xml
 etc/camera/imx298_ofilm_ak_chromatix.xml
 etc/camera/imx298_ofilm_chromatix.xml
@@ -86,6 +87,7 @@ etc/qdcm_calib_data_mdss_dsi_ft8716_1080p_video.xml
 etc/qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video.xml
 etc/sensors/hals.conf
 etc/sensors/sensor_def_qcomdev.conf
+etc/xtra_root_cert.pem|f55a31ec4d9cf8ce2724acadecf00c779f8767db
 -framework/cneapiclient.jar|3cb56a579341acfb16d2be2e41bac2c7b6ac34b4
 -framework/com.qti.dpmframework.jar|7d855e9cf5d10cd88cdcd9c9bd16120afcaa7e72
 -framework/com.qti.location.sdk.jar|41e9c9301522536c43e7ebd6ed234b2c2bf50263
