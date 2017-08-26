@@ -10,6 +10,7 @@ bin/btnvtool
 bin/cnss-daemon
 bin/cnss_diag
 bin/energy-awareness
+bin/gpsone_daemon|f4c879fd15ee3d5131a6fc480d69f72b955a9e02
 bin/gx_fpd
 bin/hci_qcomm_init
 bin/ipacm-diag
@@ -46,6 +47,7 @@ etc/data/dsi_config.xml|c4f6518596a519e9838159b1eaa99fa2ad86e24d
 etc/data/netmgr_config.xml|f8e458bf1ffe710999823acf3bcfb07282eac2b7
 etc/dpm/dpm.conf|4044e359cfde5a4e8c1ef31a684b3009bca31058
 etc/dpm/nsrm/NsrmConfiguration.xml|c406e5aaaa4ab278a7f7b62405ad5d91c8084835
+etc/drc/drc_cfg_AZ.txt
 etc/firmware/a530_gpmu.fw2
 etc/firmware/a530_pfp.fw
 etc/firmware/a530_pm4.fw
@@ -133,6 +135,8 @@ etc/permissions/qti-vzw-ims-internal.xml
 etc/permissions/telephonyservice.xml
 etc/qdcm_calib_data_mdss_dsi_ft8716_1080p_video.xml
 etc/qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video.xml
+etc/qxdm/1.cfg
+etc/qxdm/gps_log.cfg
 etc/sensors/hals.conf
 etc/sensors/sensor_def_qcomdev.conf
 etc/xtra_root_cert.pem|f55a31ec4d9cf8ce2724acadecf00c779f8767db
