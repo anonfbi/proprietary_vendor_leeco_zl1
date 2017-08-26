@@ -149,6 +149,21 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
     vendor/leeco/zl1/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/leeco/zl1/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
+    vendor/leeco/zl1/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
+    vendor/leeco/zl1/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
+    vendor/leeco/zl1/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
+    vendor/leeco/zl1/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
+    vendor/leeco/zl1/proprietary/vendor/bin/qti:system/vendor/bin/qti \
+    vendor/leeco/zl1/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
+    vendor/leeco/zl1/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/leeco/zl1/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
+    vendor/leeco/zl1/proprietary/vendor/etc/perf-profile1.conf:system/vendor/etc/perf-profile1.conf \
+    vendor/leeco/zl1/proprietary/vendor/etc/perf-profile2.conf:system/vendor/etc/perf-profile2.conf \
+    vendor/leeco/zl1/proprietary/vendor/etc/perf-profile3.conf:system/vendor/etc/perf-profile3.conf \
+    vendor/leeco/zl1/proprietary/vendor/etc/perf-profile4.conf:system/vendor/etc/perf-profile4.conf \
+    vendor/leeco/zl1/proprietary/vendor/etc/perf-profile5.conf:system/vendor/etc/perf-profile5.conf \
+    vendor/leeco/zl1/proprietary/vendor/etc/perf-profile6.conf:system/vendor/etc/perf-profile6.conf \
+    vendor/leeco/zl1/proprietary/vendor/etc/public.libraries.txt:system/vendor/etc/public.libraries.txt \
     vendor/leeco/zl1/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libsensor_test.so:system/vendor/lib/libsensor_test.so \
@@ -156,7 +171,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/sensors.hal.tof.so:system/vendor/lib64/sensors.hal.tof.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/sensors.oem.so:system/vendor/lib64/sensors.oem.so \
-    vendor/leeco/zl1/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so
+    vendor/leeco/zl1/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
+    vendor/leeco/zl1/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
     QtiTelephonyService \
@@ -170,6 +186,9 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location \
     dpmserviceapp \
     qcrilmsgtunnel \
+    colorservice \
+    ims \
+    imssettings \
     ConnectivityExt \
     QtiTelephonyServicelibrary \
     cneapiclient \
