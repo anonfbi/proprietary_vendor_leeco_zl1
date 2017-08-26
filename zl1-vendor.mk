@@ -149,6 +149,35 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
     vendor/leeco/zl1/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/leeco/zl1/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
+    vendor/leeco/zl1/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
+    vendor/leeco/zl1/proprietary/lib/libLetvCameraImageSDK.so:system/lib/libLetvCameraImageSDK.so \
+    vendor/leeco/zl1/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
+    vendor/leeco/zl1/proprietary/lib/libamipengine.so:system/lib/libamipengine.so \
+    vendor/leeco/zl1/proprietary/lib/libarcsoft_antishaking.so:system/lib/libarcsoft_antishaking.so \
+    vendor/leeco/zl1/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
+    vendor/leeco/zl1/proprietary/lib/libarcsoft_beautyshot_image_algorithm.so:system/lib/libarcsoft_beautyshot_image_algorithm.so \
+    vendor/leeco/zl1/proprietary/lib/libarcsoft_beautyshot_video_algorithm.so:system/lib/libarcsoft_beautyshot_video_algorithm.so \
+    vendor/leeco/zl1/proprietary/lib/libarcsoft_hdr.so:system/lib/libarcsoft_hdr.so \
+    vendor/leeco/zl1/proprietary/lib/libarcsoft_hdr_detection.so:system/lib/libarcsoft_hdr_detection.so \
+    vendor/leeco/zl1/proprietary/lib/libarcsoft_night_shot.so:system/lib/libarcsoft_night_shot.so \
+    vendor/leeco/zl1/proprietary/lib/libarcsoft_nighthawk.so:system/lib/libarcsoft_nighthawk.so \
+    vendor/leeco/zl1/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
+    vendor/leeco/zl1/proprietary/lib/libarcsoft_smart_denoise.so:system/lib/libarcsoft_smart_denoise.so \
+    vendor/leeco/zl1/proprietary/lib/libcamera_letv_algo.so:system/lib/libcamera_letv_algo.so \
+    vendor/leeco/zl1/proprietary/lib/libletv_algo_jni.so:system/lib/libletv_algo_jni.so \
+    vendor/leeco/zl1/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
+    vendor/leeco/zl1/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/leeco/zl1/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/leeco/zl1/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
+    vendor/leeco/zl1/proprietary/lib/libmpkernel.so:system/lib/libmpkernel.so \
+    vendor/leeco/zl1/proprietary/lib/libmpstream.so:system/lib/libmpstream.so \
+    vendor/leeco/zl1/proprietary/lib/libmputility.so:system/lib/libmputility.so \
+    vendor/leeco/zl1/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/leeco/zl1/proprietary/lib/libqrDec.so:system/lib/libqrDec.so \
+    vendor/leeco/zl1/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
+    vendor/leeco/zl1/proprietary/lib/libzeusisCameraAlgoSceneDetection.so:system/lib/libzeusisCameraAlgoSceneDetection.so \
+    vendor/leeco/zl1/proprietary/lib/rfsa/adsp/libmorpho_image_stabilizer4_hvx_skel.so:system/lib/rfsa/adsp/libmorpho_image_stabilizer4_hvx_skel.so \
+    vendor/leeco/zl1/proprietary/lib/rfsa/adsp/libmorpho_video_denoiser_hvx_skel.so:system/lib/rfsa/adsp/libmorpho_video_denoiser_hvx_skel.so \
     vendor/leeco/zl1/proprietary/lib64/hw/fingerprint.msm8996.so:system/lib64/hw/fingerprint.msm8996.so \
     vendor/leeco/zl1/proprietary/lib64/hw/gxfingerprint5118m.default.so:system/lib64/hw/gxfingerprint5118m.default.so \
     vendor/leeco/zl1/proprietary/lib64/libfp_client5118m.so:system/lib64/libfp_client5118m.so \
