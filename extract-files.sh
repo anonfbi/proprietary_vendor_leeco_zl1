@@ -21,6 +21,9 @@ set -e
 DEVICE=zl1
 VENDOR=leeco
 
+FILE=LE_ZL1_LEX720-CN-FN-WAXCNFN5902303282S-5.9.023S.zip
+REMOTE=http://g3.letv.cn/222/8/95/scmauto/0/dailybuild/connect/cn/le_zl1/stable_023/20170328/lex720_zl1_stable_023_20170120_WAXCNFN5902303282S_20170328_122431_whole_netcom_user
+
 MY_DIR="${BASH_SOURCE%/*}"
 if [[ ! -d "$MY_DIR" ]]; then MY_DIR="$PWD"; fi
 
@@ -45,6 +48,8 @@ while [ "$1" != "" ]; do
                                 ;;
         -c | --clean-vendor )   clean_vendor=true
                                 ;;
+        -w | --download )       download=true
+                                ;;
     esac
     shift
 done
@@ -54,6 +59,11 @@ if [ -z "$SRC" ]; then
 fi
 
 setup_vendor "$DEVICE" "$VENDOR" "$ROOT" false $clean_vendor
+
+if [ "$download" = "true" ]; then
+    SRC="$FILE"
+    download "$SRC"
+fi;
 
 extract "$MY_DIR"/proprietary-files.txt "$SRC" "$SECTION"
 
