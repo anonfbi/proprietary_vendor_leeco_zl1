@@ -48,6 +48,12 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/etc/camera/ov8865_ofilm_chromatix.xml:system/etc/camera/ov8865_ofilm_chromatix.xml \
     vendor/leeco/zl1/proprietary/etc/camera/ov8865_ofilm_plus_chromatix.xml:system/etc/camera/ov8865_ofilm_plus_chromatix.xml \
     vendor/leeco/zl1/proprietary/etc/camera/ov8865_sunny_chromatix.xml:system/etc/camera/ov8865_sunny_chromatix.xml \
+    vendor/leeco/zl1/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
+    vendor/leeco/zl1/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
+    vendor/leeco/zl1/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
+    vendor/leeco/zl1/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
+    vendor/leeco/zl1/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
+    vendor/leeco/zl1/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/leeco/zl1/proprietary/etc/firmware/nfc_test.bin:system/etc/firmware/nfc_test.bin \
     vendor/leeco/zl1/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
     vendor/leeco/zl1/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
@@ -69,6 +75,22 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/etc/firmware/widevine.mbn:system/etc/firmware/widevine.mbn \
     vendor/leeco/zl1/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
     vendor/leeco/zl1/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
+    vendor/leeco/zl1/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
+    vendor/leeco/zl1/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
+    vendor/leeco/zl1/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
+    vendor/leeco/zl1/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
+    vendor/leeco/zl1/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
+    vendor/leeco/zl1/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+    vendor/leeco/zl1/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
+    vendor/leeco/zl1/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
+    vendor/leeco/zl1/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
+    vendor/leeco/zl1/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
+    vendor/leeco/zl1/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
+    vendor/leeco/zl1/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
+    vendor/leeco/zl1/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/leeco/zl1/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
+    vendor/leeco/zl1/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
+    vendor/leeco/zl1/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/leeco/zl1/proprietary/etc/qdcm_calib_data_mdss_dsi_ft8716_1080p_video.xml:system/etc/qdcm_calib_data_mdss_dsi_ft8716_1080p_video.xml \
     vendor/leeco/zl1/proprietary/etc/qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video.xml:system/etc/qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video.xml \
     vendor/leeco/zl1/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
