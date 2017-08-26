@@ -158,7 +158,11 @@ etc/xtra_root_cert.pem|f55a31ec4d9cf8ce2724acadecf00c779f8767db
 -framework/rcsimssettings.jar|566a0f637344ca3182aca33753e404977fc77ecc
 -framework/rcsservice.jar|1525abc5a6e6bf4773df09cd8a18926bb3dd9847
 -framework/tcmclient.jar|e7149c664f4b1841139ab816c0d4e0942df0583c
+-priv-app/CNEService/CNEService.apk|e4a3bcf497bf1e2cc822205bc9adc59ac232cb6c
+-priv-app/com.qualcomm.location/com.qualcomm.location.apk|84aba5325ca33e5babd58f917c9cdf7acda156af
 -priv-app/dpmserviceapp/dpmserviceapp.apk|f6b0e77918e7bdd00e67c95c65277b625e26d2a7
+-priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|33c62221de17a13258e48127218052465a18e1b8
+-priv-app/QtiTetherService/QtiTetherService.apk|be881927cd74d877ef1b5dcb82f6e6b1ef433a1e
 vendor/lib64/sensors.hal.tof.so
 vendor/lib64/sensors.oem.so
 vendor/lib64/sensors.ssc.so
