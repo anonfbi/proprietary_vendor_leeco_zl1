@@ -90,4 +90,21 @@ PRODUCT_PACKAGES += \
     fastdormancy \
     shutdownlistener \
     dpmserviceapp \
-    ConnectivityExt
+    ConnectivityExt \
+    QtiTelephonyServicelibrary \
+    cneapiclient \
+    com.qti.dpmframework \
+    com.qti.location.sdk \
+    com.qti.snapdragon.sdk.display \
+    com.qualcomm.location.vzw_library \
+    com.quicinc.cne \
+    dpmapi \
+    embmslibrary \
+    imscmlibrary \
+    izat.xt.srv \
+    qcnvitems \
+    qcrilhook \
+    qti-telephony-common \
+    rcsimssettings \
+    rcsservice \
+    tcmclient
