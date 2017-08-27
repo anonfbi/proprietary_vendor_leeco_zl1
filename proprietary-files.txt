@@ -264,11 +264,14 @@ vendor/lib64/libacdbrtac.so|8263bebe731d0f7cbb14981c2f71c2f9a61a0a4e
 vendor/lib64/libadiertac.so|d06c20208a217e845e552d2a8008f104a227b3c4
 vendor/lib64/libadreno_utils.so|4fce79ddc81964a46752a7c3d5619c40c50d4222
 vendor/lib64/libadsp_default_listener.so|d1f436678a94b81cc83d74f3274010da68888e09
-vendor/lib64/libadsprpc.so|44f40e53c3c6d30410abae06d464d8dafd0913eb
+-vendor/lib64/libadsprpc.so|44f40e53c3c6d30410abae06d464d8dafd0913eb
 vendor/lib64/libalarmservice_jni.so|f05bbf58be4bbea47cbfea519bb14025eea5a6d6
 vendor/lib64/libasn1cper.so|25d8099b18c9376af69648251dec33f5cfbba73d
 vendor/lib64/libasn1crt.so|0dae458dd264a9ee50fbe9fc40cd6ac0f68c381d
 vendor/lib64/libasn1crtx.so|8bd25b1f5da79cd8b6057b1f37ba0c5315f0670f
+vendor/lib64/libaudcal.so|2adbdbcc687cbe8c39c03d04f26289ee78e10aae
+vendor/lib64/libaudioalsa.so|51cbb94d99a09d27ef0d718f1b3c6c4f9a18b53a
+vendor/lib64/libaudiodevarb.so|1427d7bf4a8b4178aa45a12f497e07cedbe3f510
 vendor/lib64/libbccQTI.so|a0ff32d221997cf5f3fcb485dfb776e77c6239e9
 vendor/lib64/libbtnv.so|f519b5100c0a97c6c140a2e7933d55dee396b237
 vendor/lib64/libC2D2.so|61b5eb003dc56b03fa597ac0fcd5c702109c78cb
@@ -304,6 +307,7 @@ vendor/lib64/libgeofence.so|1e52757818155f4b096f15ec72954d621f2df31b
 vendor/lib64/libGPreqcancel.so|35cda968b02afb8c07ca372831369abea8985f53
 vendor/lib64/libGPreqcancel_svc.so|6d40ce1df1fb2f72b7a8d4eed56efa9e9488fa3c
 vendor/lib64/libgsl.so|f9ea89505580e458dd97907059c2460f097aec6b
+vendor/lib64/libI420colorconvert.so|0909220f12b401ac42677fd3010039c78fc14b35
 vendor/lib64/libidl.so|69b2c002c058a4f6a7f5fb58a3dfd0a3327077b6
 vendor/lib64/libimscamera_jni.so|56dc79a37353f5cd7b51411a7e0e7640a93eb4b5
 vendor/lib64/lib-imscamera.so|aab9348362ef95553bd38eef2a6d58f68f26ba52
@@ -390,6 +394,7 @@ vendor/lib64/libsdm-diag.so|f9ca7943a929d9f60521f6d1099360d8bb6440e6
 -vendor/lib64/libsdm-disp-apis.so|7a92054da305786ba58451e265e856b01c3ef18d
 vendor/lib64/libsdmextension.so|cfa177edc25c06e1e4d702315a3725229630c81f
 -vendor/lib64/libsd_sdk_display.so|31916490a4dcc644a5e09208c469abee43cf40cf
+-vendor/lib64/libsdsprpc.so|63c7475060160cf9b36e372da519c1d030fd369f
 vendor/lib64/lib-sec-disp.so|0c5c258d6f78eddca498cd33a222314a622c75de
 vendor/lib64/libSecureUILib.so|b5135ec81c95970ebc231d5430035bc8d1258348
 vendor/lib64/libsecureui.so|9ae22b15552fa3b3fdac08e9c5a7316b1ad41082
@@ -452,7 +457,7 @@ vendor/lib/libadreno_utils.so|688253d34b3b4df78cbe549f22138ec85c50cff5
 vendor/lib/libadsp_default_listener.so|b427880a95928cc66fb81405a898c39adb519ae1
 vendor/lib/libadsp_hvx_callback_skel.so|d468faae0e47152f2fab043acac7b915deda551c
 vendor/lib/libadsp_hvx_stub.so|5cd82ae4bbc6689e82462e99b3d176227ff182ec
-vendor/lib/libadsprpc.so|d6981d53a6ca7dc3d9808692d5b1df9599134dcb
+-vendor/lib/libadsprpc.so|d6981d53a6ca7dc3d9808692d5b1df9599134dcb
 vendor/lib/libalarmservice_jni.so|10b0d211f34ad1480e4c5a97429c4888ed47bbe3
 vendor/lib/libaudcal.so|86b9e2fa5ec73b60660f19bd2f9f3796ed910926
 vendor/lib/libaudioalsa.so|d05c3f51c4ccb0415fd8cb4ad4737c0216148e54
@@ -673,6 +678,7 @@ vendor/lib/libflash_i2c.so
 vendor/lib/libflash_pmic.so
 vendor/lib/libgpustats.so|82163c4e32df09c743d1ce0201a551fb2416c439
 vendor/lib/libgsl.so|baf069a23940c4df751e0a34ee7f2c5af7692c7d
+vendor/lib/libI420colorconvert.so|ff854449262dfa55ed85accf026c187ba801b09e
 vendor/lib/libidl.so|eadf4f3f7d25ec642cc457d4f6d16912682b0508
 vendor/lib/lib-imscamera.so|dc9bfbbb9b854b26aa812a0a7bbc85847671ab86
 vendor/lib/lib-imsdpl.so|178704f67893f7b8ae5a789cfb6872ba89ad8984
@@ -835,7 +841,7 @@ vendor/lib/libsdm-diag.so|36b3eafdad88f5281ad5d5df71591ce0f268c3bb
 -vendor/lib/libsdm-disp-apis.so|72f6db2b249a47a6ac83d4dfc7d2e9f76b349920
 vendor/lib/libsdmextension.so|30d5883593c560b791d9f09658c881f12952b966
 -vendor/lib/libsd_sdk_display.so|23b1ef85654178da98e4f950d26736759cf069c1
-vendor/lib/libsdsprpc.so|cdc946ecaeef9ac1ef70e652c3c0b29fcd5f7424
+-vendor/lib/libsdsprpc.so|cdc946ecaeef9ac1ef70e652c3c0b29fcd5f7424
 vendor/lib/libsensor1.so
 vendor/lib/libsensor_reg.so
 vendor/lib/libsensor_test.so
@@ -860,6 +866,9 @@ vendor/lib/libwqe.so|0944cfd906313656e659aa4030c8ea77b1f59491
 vendor/lib/libwvdrm_L3.so|7e77482481197997294a834bfbc817a01b6075cd
 vendor/lib/libWVStreamControlAPI_L3.so|61673304827483d44b735a3dd08f0783d10ce92d
 vendor/lib/libxml.so|13704bab0c01f27b5e6491f08e27ab6f2d0d672f
+vendor/lib/libxtadapter.so|f2864bb731dcc217f65de92b7302418f1c2e923d
+vendor/lib/libxt_native.so|a83c84d8112ce1f323cb4429b5f4d40dec85435d
+vendor/lib/libxtwifi_ulp_adaptor.so|3c4d1078d45308beebbf8ee44049249b95a04bad
 vendor/lib/mediadrm/libwvdrmengine.so|d343e1617ef24696cda10b140cddf2ffed07dba5
 vendor/lib/rfsa/adsp/libadsp_fd_skel.so|5607a78451b621bb6399878ab58ba896c72797ab
 vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so|035272c1d77bcd04e3a838056d512964744c9322
