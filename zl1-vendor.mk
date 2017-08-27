@@ -135,15 +135,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
     vendor/leeco/zl1/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
     vendor/leeco/zl1/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
-    vendor/leeco/zl1/proprietary/etc/firmware/widevine.b00:system/etc/firmware/widevine.b00 \
-    vendor/leeco/zl1/proprietary/etc/firmware/widevine.b01:system/etc/firmware/widevine.b01 \
-    vendor/leeco/zl1/proprietary/etc/firmware/widevine.b02:system/etc/firmware/widevine.b02 \
-    vendor/leeco/zl1/proprietary/etc/firmware/widevine.b03:system/etc/firmware/widevine.b03 \
-    vendor/leeco/zl1/proprietary/etc/firmware/widevine.b04:system/etc/firmware/widevine.b04 \
-    vendor/leeco/zl1/proprietary/etc/firmware/widevine.b05:system/etc/firmware/widevine.b05 \
-    vendor/leeco/zl1/proprietary/etc/firmware/widevine.b06:system/etc/firmware/widevine.b06 \
-    vendor/leeco/zl1/proprietary/etc/firmware/widevine.mbn:system/etc/firmware/widevine.mbn \
-    vendor/leeco/zl1/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
     vendor/leeco/zl1/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/leeco/zl1/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/leeco/zl1/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
@@ -227,6 +218,15 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/etc/perf-profile6.conf:system/vendor/etc/perf-profile6.conf \
     vendor/leeco/zl1/proprietary/vendor/etc/public.libraries.txt:system/vendor/etc/public.libraries.txt \
     vendor/leeco/zl1/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
+    vendor/leeco/zl1/proprietary/vendor/firmware/widevine.b00:system/vendor/firmware/widevine.b00 \
+    vendor/leeco/zl1/proprietary/vendor/firmware/widevine.b01:system/vendor/firmware/widevine.b01 \
+    vendor/leeco/zl1/proprietary/vendor/firmware/widevine.b02:system/vendor/firmware/widevine.b02 \
+    vendor/leeco/zl1/proprietary/vendor/firmware/widevine.b03:system/vendor/firmware/widevine.b03 \
+    vendor/leeco/zl1/proprietary/vendor/firmware/widevine.b04:system/vendor/firmware/widevine.b04 \
+    vendor/leeco/zl1/proprietary/vendor/firmware/widevine.b05:system/vendor/firmware/widevine.b05 \
+    vendor/leeco/zl1/proprietary/vendor/firmware/widevine.b06:system/vendor/firmware/widevine.b06 \
+    vendor/leeco/zl1/proprietary/vendor/firmware/widevine.mbn:system/vendor/firmware/widevine.mbn \
+    vendor/leeco/zl1/proprietary/vendor/firmware/widevine.mdt:system/vendor/firmware/widevine.mdt \
     vendor/leeco/zl1/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/leeco/zl1/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/leeco/zl1/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
