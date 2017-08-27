@@ -16,17 +16,28 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/leeco/zl1/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/leeco/zl1/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/leeco/zl1/proprietary/bin/cnd:system/bin/cnd \
     vendor/leeco/zl1/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/leeco/zl1/proprietary/bin/cnss_diag:system/bin/cnss_diag \
+    vendor/leeco/zl1/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/leeco/zl1/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/leeco/zl1/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/leeco/zl1/proprietary/bin/gx_fpd:system/bin/gx_fpd \
     vendor/leeco/zl1/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/leeco/zl1/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
+    vendor/leeco/zl1/proprietary/bin/imscmservice:system/bin/imscmservice \
+    vendor/leeco/zl1/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
+    vendor/leeco/zl1/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
+    vendor/leeco/zl1/proprietary/bin/iop:system/bin/iop \
     vendor/leeco/zl1/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/leeco/zl1/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/leeco/zl1/proprietary/bin/loc_launcher:system/bin/loc_launcher \
+    vendor/leeco/zl1/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/leeco/zl1/proprietary/bin/mbn_daemon:system/bin/mbn_daemon \
     vendor/leeco/zl1/proprietary/bin/mbn_daemon_test:system/bin/mbn_daemon_test \
     vendor/leeco/zl1/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/leeco/zl1/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
+    vendor/leeco/zl1/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/leeco/zl1/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/leeco/zl1/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/leeco/zl1/proprietary/bin/qmuxd:system/bin/qmuxd \
