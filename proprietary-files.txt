@@ -42,6 +42,21 @@ bin/tftp_server|1f2e1c88cd2f8024d84b1a0d2f4ef4e29e7c2635
 bin/time_daemon|74bc9254f9bdc05db7a68cf3c0f3a211ce75477e
 bin/wcnss_filter|474d474fbbe0e415946340ab11298ca1aa1b3fbc
 bin/yep_qmi_server
+etc/acdbdata/MTP/letv/MTP_Bluetooth_cal.acdb
+etc/acdbdata/MTP/letv/MTP_General_cal.acdb
+etc/acdbdata/MTP/letv/MTP_Global_cal.acdb
+etc/acdbdata/MTP/letv/MTP_Handset_cal.acdb
+etc/acdbdata/MTP/letv/MTP_Hdmi_cal.acdb
+etc/acdbdata/MTP/letv/MTP_Headset_cal.acdb
+etc/acdbdata/MTP/letv/MTP_Speaker_cal.acdb
+etc/acdbdata/MTP/letv/workspaceFile.qwsp
+etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
+etc/acdbdata/MTP/MTP_General_cal.acdb
+etc/acdbdata/MTP/MTP_Global_cal.acdb
+etc/acdbdata/MTP/MTP_Handset_cal.acdb
+etc/acdbdata/MTP/MTP_Hdmi_cal.acdb
+etc/acdbdata/MTP/MTP_Headset_cal.acdb
+etc/acdbdata/MTP/MTP_Speaker_cal.acdb
 etc/cacert_location.pem|0789bf799c7e45d352a83e2f79ddb0cea86db85b
 etc/camera/imx298_chromatix.xml
 etc/camera/imx298_ofilm_ak_chromatix.xml
@@ -251,6 +266,7 @@ vendor/lib64/hw/keystore.msm8996.so|d198da31172de0e235a98fb8cd5b96d6239f9f16
 vendor/lib64/hw/vulkan.msm8996.so|f4aa9246941c864ab186910e6ccff844b70e5c19
 vendor/lib64/libacdb-fts.so|69e3c85104ed23c1cff68a7cdd1affe74d647c05
 vendor/lib64/libacdbloader.so|7686bb2a5108f5bfd25d5e024cb470f18120ed01
+vendor/lib64/libacdbmapper.so
 vendor/lib64/libacdbrtac.so|8263bebe731d0f7cbb14981c2f71c2f9a61a0a4e
 vendor/lib64/libadiertac.so|d06c20208a217e845e552d2a8008f104a227b3c4
 vendor/lib64/libadreno_utils.so|4fce79ddc81964a46752a7c3d5619c40c50d4222
@@ -430,6 +446,7 @@ vendor/lib/hw/sound_trigger.primary.msm8996.so|93d56e6ddfc9180e60ddf205fc4a53224
 vendor/lib/hw/vulkan.msm8996.so|0b69fd00ce1e3da65105e57b35ef17c78fe103d2
 vendor/lib/libacdb-fts.so|415cf9a80b5fd18716242e0094496ce77d00d120
 vendor/lib/libacdbloader.so|3b9ae23c9e11854a843f90c8b5d02a6ccdd15cfd
+vendor/lib/libacdbmapper.so
 vendor/lib/libacdbrtac.so|1c13fbd61a4f7508bd9362b1793fbc7f67093797
 vendor/lib/libactuator_dw9714.so
 vendor/lib/libactuator_dw9800w.so
