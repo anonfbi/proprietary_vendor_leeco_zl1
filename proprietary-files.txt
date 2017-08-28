@@ -371,6 +371,7 @@ vendor/lib64/libqti-iop.so|b04cf86515b6863ac380a3ff41dc68087526ea3c
 -vendor/lib64/libqti_performance.so|0ee1280edba6221f63d4dba81f4b73ab4c0cf80c
 vendor/lib64/libQtiTether.so|edfdbf0a5b57815e16a9cb26be842e33d5576866
 vendor/lib64/libquipc_os_api.so|792224bcee614d27acda278b4919d19d72f35b48
+vendor/lib64/libqvop-service.so|3cb52241ea684512c532b7ead5d1b34ddc666926
 vendor/lib64/librcc.so|2f95ca3a5f6bd1bb94434918bad581cd35d80f1d
 vendor/lib64/lib-rcsimssjni.so|8e78513a3ad4d9bcfbde73481c777bbb51f743c2
 vendor/lib64/lib-rcsjni.so|1970461b0e5d5e3d2bfb84eea3ef2930107ff960
