@@ -182,6 +182,7 @@ lib64/libgnsspps.so|97a0dd71b605480e50c606517b7c976837d9ff2c
 -lib64/libloc_api_v02.so|2b6e61633ffb3e332bb2c03c3329f4250e403f10
 lib64/libloc_ds_api.so|388b82bb83cb54d3ff2f89ce38cb52f65d582448
 lib64/libparam.so|d9975e3f691148e5a3c14110305e073aa3aa2f46
+lib64/libstagefright_soft_flacdec.so|d0e0d5a9c706d3cfc52aec33ac4d414e5df80c02
 lib/hw/camera.msm8996.so
 lib/libamipengine.so
 lib/libarcsoft_antishaking.so
@@ -207,6 +208,7 @@ lib/libmputility.so
 lib/libOmxVpp.so|6cd45046959593f293b7170b80d10eb726f9f966
 lib/libqomx_core.so
 lib/libqrDec.so
+lib/libstagefright_soft_flacdec.so|5b5b83b4019feebc3f7fe7efb414f5244f83c156
 lib/libvpplibrary.so|5e74d22fe1f7b2ab67760a7ce9a23b8e078a13db
 lib/libzeusisCameraAlgoSceneDetection.so
 lib/rfsa/adsp/libmorpho_image_stabilizer4_hvx_skel.so|5a091a4ea958d8d5c841c9f175500b185e279378
@@ -267,12 +269,14 @@ vendor/lib64/libadreno_utils.so|4fce79ddc81964a46752a7c3d5619c40c50d4222
 vendor/lib64/libadsp_default_listener.so|d1f436678a94b81cc83d74f3274010da68888e09
 -vendor/lib64/libadsprpc.so|44f40e53c3c6d30410abae06d464d8dafd0913eb
 vendor/lib64/libalarmservice_jni.so|f05bbf58be4bbea47cbfea519bb14025eea5a6d6
+vendor/lib64/libAR_jni.so|3356fdaeaba9f7463f62c844e37e4d9a6962de8f
 vendor/lib64/libasn1cper.so|25d8099b18c9376af69648251dec33f5cfbba73d
 vendor/lib64/libasn1crt.so|0dae458dd264a9ee50fbe9fc40cd6ac0f68c381d
 vendor/lib64/libasn1crtx.so|8bd25b1f5da79cd8b6057b1f37ba0c5315f0670f
 vendor/lib64/libaudcal.so|2adbdbcc687cbe8c39c03d04f26289ee78e10aae
 vendor/lib64/libaudioalsa.so|51cbb94d99a09d27ef0d718f1b3c6c4f9a18b53a
 vendor/lib64/libaudiodevarb.so|1427d7bf4a8b4178aa45a12f497e07cedbe3f510
+vendor/lib64/libavenhancements.so|779cdbcb51738ddf2eabfe0a801f69dd8f0c9a64
 vendor/lib64/libbccQTI.so|a0ff32d221997cf5f3fcb485dfb776e77c6239e9
 vendor/lib64/libbtnv.so|f519b5100c0a97c6c140a2e7933d55dee396b237
 vendor/lib64/libC2D2.so|61b5eb003dc56b03fa597ac0fcd5c702109c78cb
@@ -300,8 +304,10 @@ vendor/lib64/libDRPlugin.so|82edb75e74349f84ec4ad2922621908823bcf452
 vendor/lib64/libdsi_netctrl.so|c9c28dddc8063b4f8679ce81b78f487882ff5fd1
 vendor/lib64/libdsutils.so|d556b5a358306e5b7463070d54385fccedab2bcc
 vendor/lib64/libevent_observer.so|32c3ce98df98a24d70d834afecb6bbd9d704ef6e
+vendor/lib64/libExtendedExtractor.so|82b0bb7d79e9b46b90e490927e18e6f10008c87f
 vendor/lib64/libfastcvadsp_stub.so|45d0d0dc9f822ea991bf559db31476d18ba9ec7f
 vendor/lib64/libfastcvopt.so|f514df023de75d4d1d918f104465ea45a39a3f26
+vendor/lib64/libFlacSwDec.so|e755a770e6f9de2abc8e7c844c74c0eabfaa67c4
 vendor/lib64/libflp.so|8baa714d5b469dcdbe70590660240fe02a4e3b70
 vendor/lib64/libgdtap.so|c50ff315a69364c3dc117e80ef6e0cff78f86ee6
 vendor/lib64/libgeofence.so|1e52757818155f4b096f15ec72954d621f2df31b
@@ -345,6 +351,8 @@ vendor/lib64/libmdtp.so
 vendor/lib64/libmm-color-convertor.so|93bc8dd65877ba95e07ee72b29711e77221097c9
 vendor/lib64/libmm-disp-apis.so|82a107af842ff1040fadd44c3551d6b17af75db9
 vendor/lib64/libmm-dspp-utils.so
+vendor/lib64/libmmparser_lite.so|379628ee5dd4be36f883e22a835bd5a67aeccfc4
+vendor/lib64/libmmparser.so|91c9c266dde925d4adea4faf16489699aaaf87e1
 vendor/lib64/libmm-qdcm-diag.so
 vendor/lib64/libmmQSM.so|2c5bbaa9900775019273d399aba44fcafa1e5a1a
 vendor/lib64/libnetmgr.so|b1b87bde77d0fbc894125340b27f15d5e94fd663
@@ -674,8 +682,10 @@ vendor/lib/libdpmtcm.so|6deff3de1f976f3599b1edf4488b415e4866779a
 vendor/lib/libdrplugin_client.so|f7b379b8106af0b30f548ce6b6f624d29bcd97a2
 vendor/lib/libdsi_netctrl.so|28e14bce7bf18033be1ef05414e35953610d53d0
 vendor/lib/libdsutils.so|39168b79125739e0e0728089b68dae0429e9f726
+vendor/lib/libExtendedExtractor.so|5111b6dce69d2e6843505e869cc11235c23ff05b
 vendor/lib/libfastcvadsp_stub.so|cbd9dba16c284505342b868969d1c165564e05f4
 vendor/lib/libfastcvopt.so|a9451e1d22a10a292103370397ecf0c5f34cc7a9
+vendor/lib/libFlacSwDec.so|89c0b9af3d56cd73e07393f2c88ac657659ebf5c
 vendor/lib/libflash_i2c.so
 vendor/lib/libflash_pmic.so
 vendor/lib/libgpustats.so|82163c4e32df09c743d1ce0201a551fb2416c439
@@ -801,6 +811,8 @@ vendor/lib/libmmcamera_tuning.so
 vendor/lib/libmm-color-convertor.so|61c831492f563d5de41a7469779c05190e27873b
 vendor/lib/libmm-disp-apis.so|5ecc58370f12e68353db439dd15f2b42dce09606
 vendor/lib/libmmosal.so|64008dcc866e67c5afff22eae5f9969dc1cf4884
+vendor/lib/libmmparser_lite.so|92eb3ef21e7baa3424a95a351f18b615e0a72c10
+vendor/lib/libmmparser.so|b795d43286159ea7f35e0fbc8ed00f1efa62139a
 vendor/lib/libmm-qdcm.so|085e4756684d29cc84342b0e033b3c5c0c3b1d86
 vendor/lib/libmmqjpeg_codec.so
 vendor/lib/libmmqjpegdma.so
@@ -814,6 +826,7 @@ vendor/lib/libperipheral_client.so|81a178a34e94931fca5e4a27a4edad822ead31eb
 vendor/lib/libqcci_legacy.so|afd895962437760bfb51ae7081d001877f7a3ed1
 vendor/lib/libqcmaputils.so|7507b5d7592ad82aa239802c69618646efa757b4
 vendor/lib/libqcproximity.so
+-vendor/lib/libqct_resampler.so|24744037d8d08a1c9f064176701cff4001f164a7
 vendor/lib/libqdi.so|703391a37fbfed8e695a87af4c81f9238e3f43aa
 vendor/lib/libqdp.so|267a68b6d30b2fc8d1b3b902ae11dcb7bd0a0bb8
 vendor/lib/libqmi_cci.so|3bdd6b71d9bba3c6a961521d0f30fd2ab53f2890
