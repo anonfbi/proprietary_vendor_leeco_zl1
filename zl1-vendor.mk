@@ -142,6 +142,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/leeco/zl1/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
     vendor/leeco/zl1/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+    vendor/leeco/zl1/proprietary/etc/permissions/com.qualcomm.qti.Performance.xml:system/etc/permissions/com.qualcomm.qti.Performance.xml \
     vendor/leeco/zl1/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/leeco/zl1/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/leeco/zl1/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
@@ -903,6 +904,7 @@ PRODUCT_PACKAGES += \
     ims \
     imssettings \
     ConnectivityExt \
+    QPerformance \
     QtiTelephonyServicelibrary \
     cneapiclient \
     com.qti.dpmframework \

@@ -132,6 +132,7 @@ etc/permissions/com.qti.location.sdk.xml
 etc/permissions/com.qti.snapdragon.sdk.display.xml
 etc/permissions/com.qualcomm.location.vzw_library.xml
 etc/permissions/com.qualcomm.location.xml|8896841bc23fa47bb26fb3dacfa82747f6966330
+etc/permissions/com.qualcomm.qti.Performance.xml|7976f2fd46b8d07814310cc957a70f829bdd6932
 etc/permissions/com.quicinc.cne.xml
 etc/permissions/ConnectivityExt.xml
 etc/permissions/dpmapi.xml
@@ -168,6 +169,7 @@ etc/xtra_root_cert.pem|f55a31ec4d9cf8ce2724acadecf00c779f8767db
 -framework/izat.xt.srv.jar|da31c6183f8d29251ce5656ddab6d4b386934382
 -framework/qcnvitems.jar|2618385254344f11d5b553da67cad800c415c786
 -framework/qcrilhook.jar|671de0087b8a0c11fa902fd898d93f59a1cf9887
+-framework/QPerformance.jar|ccf15e0aa9dc1faf63e1ffd7f99be6621182219c
 -framework/qti-telephony-common.jar|fecb178b16b81a9a0cd213bf03784edfeec582bd
 -framework/QtiTelephonyServicelibrary.jar|44e1b2a8a9a0d59ffc004faef4dd8e14a6bcaa05
 -framework/rcsimssettings.jar|566a0f637344ca3182aca33753e404977fc77ecc
