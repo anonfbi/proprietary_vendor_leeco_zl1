@@ -680,6 +680,7 @@ vendor/lib/libgpustats.so|82163c4e32df09c743d1ce0201a551fb2416c439
 vendor/lib/libgsl.so|baf069a23940c4df751e0a34ee7f2c5af7692c7d
 vendor/lib/libI420colorconvert.so|ff854449262dfa55ed85accf026c187ba801b09e
 vendor/lib/libidl.so|eadf4f3f7d25ec642cc457d4f6d16912682b0508
+vendor/lib/libimscamera_jni.so|e19c10d9d8f388a045345b5f374c6712fd18c979
 vendor/lib/lib-imscamera.so|dc9bfbbb9b854b26aa812a0a7bbc85847671ab86
 vendor/lib/lib-imsdpl.so|178704f67893f7b8ae5a789cfb6872ba89ad8984
 vendor/lib/lib-imsqimf.so|2a18ed330531a884b1293a3e9308b199ca2cb56e

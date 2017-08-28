@@ -498,6 +498,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/libgpustats.so:system/vendor/lib/libgpustats.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
