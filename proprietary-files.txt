@@ -829,6 +829,7 @@ vendor/lib/libmmcamera_tuning_lookup.so
 vendor/lib/libmmcamera_tuning.so
 vendor/lib/libmm-color-convertor.so|61c831492f563d5de41a7469779c05190e27873b
 vendor/lib/libmm-disp-apis.so|5ecc58370f12e68353db439dd15f2b42dce09606
+vendor/lib/libmmjpeg.so
 vendor/lib/libmmosal.so|64008dcc866e67c5afff22eae5f9969dc1cf4884
 vendor/lib/libmmparser_lite.so|92eb3ef21e7baa3424a95a351f18b615e0a72c10
 vendor/lib/libmmparser.so|b795d43286159ea7f35e0fbc8ed00f1efa62139a
