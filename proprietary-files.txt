@@ -250,6 +250,7 @@ vendor/firmware/widevine.b05|e33e45e86a113960ee9f5177765a2e2600022309
 vendor/firmware/widevine.b06|b3edf85b2966de96911297a3b639911ffcdc3584
 vendor/firmware/widevine.mbn|4c119b8b79353b7c20e3cfadae33afa0f310891a
 vendor/firmware/widevine.mdt|4acea2f7eafe4d944e16e0c163870cf6f919806f
+-vendor/framework/qti-vzw-ims-internal.jar|5cfd76b7a140396f6f192695f7fde8100062b7c7
 vendor/lib64/egl/eglSubDriverAndroid.so|1974ab5ec5270e4ece88a6147bc584f6f3e9d3a7
 vendor/lib64/egl/libEGL_adreno.so|9d24bb0bdba6d2ea243ffb9f514e69748ef4aa4c
 vendor/lib64/egl/libGLESv1_CM_adreno.so|9fe93b8b8fcf816b6caef6a789c78891801c6ffa
@@ -365,6 +366,7 @@ vendor/lib64/libqcmaputils.so|c9c705acace352b062c688a3bb5cce3e8ef3fe8a
 vendor/lib64/libqcproximity.so
 vendor/lib64/libqdi.so|e91e7778b97be2590d22dc49df7c7886d00e136f
 vendor/lib64/libqdp.so|5f1066c6b02314c9d803dce89f21d1a2a3a00320
+vendor/lib64/libqfp-service.so|ef9748841e2fbfd51a3b8dac24c8e779f413ff99
 vendor/lib64/libqisl.so|8706d37b590dd5f066b8d3d35220b18205b1e5f9
 vendor/lib64/libqmi_cci.so|66738e246f3b5647bca666f56076720e5eea602c
 vendor/lib64/libqmi_client_helper.so|8849efc7f0ab66086a2680bcd03ac3b5f862c8ad
@@ -439,6 +441,7 @@ vendor/lib64/libxml.so|bbf3729a5f5d34b48786f461b76e534afdb39cd7
 vendor/lib64/libxtadapter.so|d052f197163ef4c5250eb48cfe318e20fc8e1151
 vendor/lib64/libxt_native.so|274981a9024ba385a8336655f5ff1e205b20f9d0
 vendor/lib64/libxtwifi_ulp_adaptor.so|0b110889e192b5509c649c645fe57d44e796fc5b
+vendor/lib64/qfp.wakeup.so|9774a7670006f71cf0749e9ff3a64234cc7d12eb
 vendor/lib64/sensors.hal.tof.so
 vendor/lib64/sensors.oem.so
 vendor/lib64/sensors.ssc.so

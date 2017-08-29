@@ -814,6 +814,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib64/libqcproximity.so:system/vendor/lib64/libqcproximity.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libqfp-service.so:system/vendor/lib64/libqfp-service.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libqisl.so:system/vendor/lib64/libqisl.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libqmi_cci.so:system/vendor/lib64/libqmi_cci.so \
@@ -868,6 +869,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/qfp.wakeup.so:system/vendor/lib64/qfp.wakeup.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/sensors.hal.tof.so:system/vendor/lib64/sensors.hal.tof.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/sensors.oem.so:system/vendor/lib64/sensors.oem.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
@@ -924,4 +926,5 @@ PRODUCT_PACKAGES += \
     qti-telephony-common \
     rcsimssettings \
     rcsservice \
-    tcmclient
+    tcmclient \
+    qti-vzw-ims-internal
