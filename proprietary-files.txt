@@ -357,6 +357,13 @@ vendor/lib64/libmdmdetect.so|89fba93499091fd743ab5386f4ca02d6279dd187
 vendor/lib64/libmdtp_crypto.so
 vendor/lib64/libmdtpdemojni.so
 vendor/lib64/libmdtp.so
+vendor/lib64/libmmcamera2_frame_algorithm.so
+vendor/lib64/libmmcamera2_is.so
+vendor/lib64/libmmcamera2_q3a_core.so
+vendor/lib64/libmmcamera2_stats_algorithm.so
+vendor/lib64/libmmcamera_dbg.so
+vendor/lib64/libmmcamera_tintless_algo.so
+vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
 vendor/lib64/libmm-color-convertor.so|93bc8dd65877ba95e07ee72b29711e77221097c9
 vendor/lib64/libmm-disp-apis.so|82a107af842ff1040fadd44c3551d6b17af75db9
 vendor/lib64/libmm-dspp-utils.so
