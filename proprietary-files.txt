@@ -363,6 +363,7 @@ vendor/lib64/libmm-dspp-utils.so
 vendor/lib64/libmmparser_lite.so|379628ee5dd4be36f883e22a835bd5a67aeccfc4
 vendor/lib64/libmmparser.so|91c9c266dde925d4adea4faf16489699aaaf87e1
 vendor/lib64/libmm-qdcm-diag.so
+vendor/lib64/libmm-qdcm.so|8127e34cf40242e17915da661271bf8c94bfa364
 vendor/lib64/libmmQSM.so|2c5bbaa9900775019273d399aba44fcafa1e5a1a
 vendor/lib64/libnetmgr.so|b1b87bde77d0fbc894125340b27f15d5e94fd663
 -vendor/lib64/libOpenCL.so|03deb281b2719e8c95a692d7ca8eed1faf435e92
@@ -428,6 +429,7 @@ vendor/lib64/libslimclient.so|08b2e6c21098cf9f2f8ec19d99683e533b9b0651
 vendor/lib64/libsmemlog.so|df3091f6cc04450237279a5be37eeeb366ff142e
 vendor/lib64/libssd.so|779eec8a4dbdb381069ca4361a5ae6841b5b9d88
 vendor/lib64/libStDrvInt.so|17a5a546d2e1acda924f38ca3cd7ae00e110a239
+vendor/lib64/libsubsystem_control.so|c027e929de8523a3a76d15cc20becd69c19ad53d
 vendor/lib64/libsystem_health_mon.so|2090b0d106c923ded7ebf3ca832319c56e4d5fad
 -vendor/lib64/libthermalclient.so|ae9d79b82c92be57d17d6bac3a0451cac17110a5
 vendor/lib64/libthermalioctl.so|6f8dba061e614856db01a9687004cc5188c51549
@@ -885,6 +887,7 @@ vendor/lib/libSonyIMX298_ofilm_ak_PdafLibrary.so
 vendor/lib/libSonyIMX298_ofilm_PdafLibrary.so
 vendor/lib/libSonyIMX298PdafLibrary.so
 vendor/lib/libSonyIMX298_truly_ak_PdafLibrary.so
+vendor/lib/libsubsystem_control.so|fb83244b5c56be89b4ae976cab7d280180006305
 -vendor/lib/libthermalclient.so|580966926e8045632d196dcc21fb5ca49b5eba4e
 -vendor/lib/libtime_genoff.so|b24eb6563980cd05296b60e73cc3a970d1336357
 vendor/lib/libTimeService.so|9b36b620106ef8057f252087a74bda8b91f2f2dc
