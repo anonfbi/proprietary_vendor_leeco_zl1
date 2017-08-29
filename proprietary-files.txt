@@ -367,6 +367,7 @@ vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
 vendor/lib64/libmm-color-convertor.so|93bc8dd65877ba95e07ee72b29711e77221097c9
 vendor/lib64/libmm-disp-apis.so|82a107af842ff1040fadd44c3551d6b17af75db9
 vendor/lib64/libmm-dspp-utils.so
+vendor/lib64/libmmosal.so|57296e92349b22082b8c776622e86bc7a4f0f316
 vendor/lib64/libmmparser_lite.so|379628ee5dd4be36f883e22a835bd5a67aeccfc4
 vendor/lib64/libmmparser.so|91c9c266dde925d4adea4faf16489699aaaf87e1
 vendor/lib64/libmm-qdcm-diag.so
