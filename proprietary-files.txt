@@ -412,6 +412,9 @@ vendor/lib64/libSecureUILib.so|b5135ec81c95970ebc231d5430035bc8d1258348
 vendor/lib64/libsecureui.so|9ae22b15552fa3b3fdac08e9c5a7316b1ad41082
 vendor/lib64/libsecureuisvc_jni.so|5e92c420c4debf6c28e17666a17f45983140cc4c
 vendor/lib64/libsecureui_svcsock.so|3cfdcfd3092043c4bbb8e1543dac5980234f9d08
+vendor/lib64/libsensor1.so
+vendor/lib64/libsensor_reg.so
+vendor/lib64/libsensor_test.so
 vendor/lib64/libsettings.so|e19f299212a4193d603fd573a821c6570c84f430
 vendor/lib64/libslimclient.so|08b2e6c21098cf9f2f8ec19d99683e533b9b0651
 vendor/lib64/libsmemlog.so|df3091f6cc04450237279a5be37eeeb366ff142e
