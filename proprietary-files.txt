@@ -158,6 +158,7 @@ etc/qxdm/gps_log.cfg
 etc/sensors/hals.conf
 etc/sensors/sensor_def_qcomdev.conf
 etc/surround_sound_3mic/surround_sound_rec_AZ.cfg
+etc/thermal-engine.conf|c6c9312b7c7b52926cf7d0fc9bff933d90967100
 etc/xtra_root_cert.pem|f55a31ec4d9cf8ce2724acadecf00c779f8767db
 -framework/cneapiclient.jar|3cb56a579341acfb16d2be2e41bac2c7b6ac34b4
 -framework/com.qti.dpmframework.jar|7d855e9cf5d10cd88cdcd9c9bd16120afcaa7e72
