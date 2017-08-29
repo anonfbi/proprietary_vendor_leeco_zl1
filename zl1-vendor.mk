@@ -40,6 +40,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/leeco/zl1/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/leeco/zl1/proprietary/bin/pm-service:system/bin/pm-service \
+    vendor/leeco/zl1/proprietary/bin/qfp-daemon:system/bin/qfp-daemon \
     vendor/leeco/zl1/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/leeco/zl1/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/leeco/zl1/proprietary/bin/radish:system/bin/radish \
@@ -50,6 +51,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/leeco/zl1/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/leeco/zl1/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
+    vendor/leeco/zl1/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
+    vendor/leeco/zl1/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/leeco/zl1/proprietary/bin/yep_qmi_server:system/bin/yep_qmi_server \
     vendor/leeco/zl1/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/leeco/zl1/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
