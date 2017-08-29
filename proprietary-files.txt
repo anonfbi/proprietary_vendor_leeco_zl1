@@ -684,6 +684,8 @@ vendor/lib/libchromatix_ov8865_zsl_video.so
 vendor/lib/libcneapiclient.so|09003f0ed0c806f1b75e94124c18fc8c60604e60
 vendor/lib/libcneqmiutils.so|df7703daf0e8dec5dbfe0b682f9722229df0a9de
 vendor/lib/libcne.so|46a9bc2f460411c7ad4391d161f8afbdf83c8abf
+vendor/lib/libconnctrl.so|0cc2b980b5b8a852b9c6e041ca50ca2d65b800db
+vendor/lib/libcppf.so|cf24728eaf447cb6303246da468dea4fc28c1c78
 vendor/lib/libdataitems.so|d138d8d6a7f2e3ae0470b93e567a8f8d5ffb6c08
 vendor/lib/libdiag.so|fdc16570dcdbaf04027b47cf07333863a281ad3e
 vendor/lib/libdisp-aba.so|38d14a448b7adf1be83164f87ebf3e6c6ded8423

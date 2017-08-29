@@ -491,6 +491,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libcppf.so:system/vendor/lib/libcppf.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
