@@ -191,6 +191,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/leeco/zl1/proprietary/lib/libqrDec.so:system/lib/libqrDec.so \
     vendor/leeco/zl1/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
+    vendor/leeco/zl1/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/leeco/zl1/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/leeco/zl1/proprietary/lib/libzeusisCameraAlgoSceneDetection.so:system/lib/libzeusisCameraAlgoSceneDetection.so \
     vendor/leeco/zl1/proprietary/lib/rfsa/adsp/libmorpho_image_stabilizer4_hvx_skel.so:system/lib/rfsa/adsp/libmorpho_image_stabilizer4_hvx_skel.so \
@@ -204,6 +205,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/leeco/zl1/proprietary/lib64/libparam.so:system/lib64/libparam.so \
     vendor/leeco/zl1/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
+    vendor/leeco/zl1/proprietary/lib64/libstlport.so:system/lib64/libstlport.so \
     vendor/leeco/zl1/proprietary/vendor/bin/mdtpd:system/vendor/bin/mdtpd \
     vendor/leeco/zl1/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/leeco/zl1/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
