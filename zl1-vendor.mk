@@ -659,7 +659,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libual.so:system/vendor/lib/libual.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libualutil.so:system/vendor/lib/libualutil.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libusndroute.so:system/vendor/lib/libusndroute.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libvpphvx.so:system/vendor/lib/libvpphvx.so \

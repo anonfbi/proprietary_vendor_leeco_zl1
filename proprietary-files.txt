@@ -889,7 +889,6 @@ vendor/lib/libSonyIMX298_truly_ak_PdafLibrary.so
 vendor/lib/libTimeService.so|9b36b620106ef8057f252087a74bda8b91f2f2dc
 vendor/lib/libual.so
 vendor/lib/libualutil.so
-vendor/lib/libulp2.so
 vendor/lib/libusndroute.so
 vendor/lib/libvendorconn.so|66c3d71403ee17b31a9af360efe61db35134a52b
 vendor/lib/libvpphvx.so|288a881438d74ad1d7fda373b736a010b0ad0138
