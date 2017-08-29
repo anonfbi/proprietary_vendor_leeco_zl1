@@ -827,6 +827,7 @@ vendor/lib/libmm-qdcm.so|085e4756684d29cc84342b0e033b3c5c0c3b1d86
 vendor/lib/libmmqjpeg_codec.so
 vendor/lib/libmmqjpegdma.so
 vendor/lib/libmmQSM.so|7edd945bb418d41f95686268ca702497507b51ba
+vendor/lib/liboemcrypto.so
 vendor/lib/libOmxAacDec.so|53e451fabea0b919de98d20c9357d6f6dfd90efc
 vendor/lib/libOmxEvrcDec.so|a4cbd990b98a29b72b661a22239f5ab417e5ce6b
 vendor/lib/libOmxQcelp13Dec.so|d52947ce05f069b830a01f91518b78b7c233dfcb
