@@ -13,7 +13,6 @@
 # limitations under the License.
 
 PRODUCT_COPY_FILES += \
-    vendor/leeco/zl1/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/leeco/zl1/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/leeco/zl1/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/leeco/zl1/proprietary/bin/cnd:system/bin/cnd \

@@ -5,7 +5,6 @@
 -app/shutdownlistener/shutdownlistener.apk|a1622cc3fbc6d9ac0be19b793bd9aa230b74c86b
 -app/TimeService/TimeService.apk|e11f6e28aeb986f3d5b62878e313faf763eb875d
 bin/adsprpcd|04ca7cd833987ff08198387f2589dccb277eaccf
-bin/ATFWD-daemon
 bin/btnvtool|3ee50e61f23fa6f83e9bccc0c46d277a92976b2d
 bin/cnd|e66f759166529f2fc102950ec9b39195641d6821
 bin/cnss-daemon|c791863c1ec107189a9182db9c50014c32ba85d4
