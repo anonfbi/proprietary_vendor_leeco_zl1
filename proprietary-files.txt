@@ -14,6 +14,7 @@ bin/energy-awareness|fb61637227c917542898330cea9147a702eaa5b6
 bin/gpsone_daemon|f4c879fd15ee3d5131a6fc480d69f72b955a9e02
 bin/gx_fpd
 bin/hci_qcomm_init|1d9842b040bc79b1822d7a880157eda62e5cc715
+bin/hvdcp_opti
 bin/imscmservice|f5ce2fb129e099c05cddec0702403ac6154550c5
 bin/imsdatadaemon|51b106a5a4ee93e7d7b9f769d0dc11b1ec2fab65
 bin/imsqmidaemon|befafd569749f93595f77713df0dec2321429d19

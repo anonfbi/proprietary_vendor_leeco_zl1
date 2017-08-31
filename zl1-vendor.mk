@@ -23,6 +23,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/leeco/zl1/proprietary/bin/gx_fpd:system/bin/gx_fpd \
     vendor/leeco/zl1/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/leeco/zl1/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
     vendor/leeco/zl1/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/leeco/zl1/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/leeco/zl1/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
