@@ -493,6 +493,9 @@ vendor/lib/libadsp_hvx_callback_skel.so|d468faae0e47152f2fab043acac7b915deda551c
 vendor/lib/libadsp_hvx_stub.so|5cd82ae4bbc6689e82462e99b3d176227ff182ec
 -vendor/lib/libadsprpc.so|d6981d53a6ca7dc3d9808692d5b1df9599134dcb
 vendor/lib/libalarmservice_jni.so|10b0d211f34ad1480e4c5a97429c4888ed47bbe3
+vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so|b03772672144d4b750a5672c2922aded93bb0512
+vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so|b65cd3b72ae3e6a57901fd5b5383bfa1a88c5737
+vendor/lib/libaptXScheduler.so|6a0a2d564fde8434018b9840ce81d976b4d4ab28
 vendor/lib/libaudcal.so|86b9e2fa5ec73b60660f19bd2f9f3796ed910926
 vendor/lib/libaudioalsa.so|d05c3f51c4ccb0415fd8cb4ad4737c0216148e54
 vendor/lib/libaudiodevarb.so|aee3811af92dfb6a4721ffad3b21e3e8410112cd
