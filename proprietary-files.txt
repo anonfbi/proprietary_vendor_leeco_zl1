@@ -271,7 +271,7 @@ vendor/lib64/hw/keystore.msm8996.so|d198da31172de0e235a98fb8cd5b96d6239f9f16
 vendor/lib64/hw/vulkan.msm8996.so|f4aa9246941c864ab186910e6ccff844b70e5c19
 vendor/lib64/libacdb-fts.so|69e3c85104ed23c1cff68a7cdd1affe74d647c05
 vendor/lib64/libacdbloader.so|7686bb2a5108f5bfd25d5e024cb470f18120ed01
-vendor/lib64/libacdbmapper.so
+vendor/lib64/libacdbmapper.so|10d0a5c68753e3a072eedb519dd9cc081b9705d8
 vendor/lib64/libacdbrtac.so|8263bebe731d0f7cbb14981c2f71c2f9a61a0a4e
 vendor/lib64/libadiertac.so|d06c20208a217e845e552d2a8008f104a227b3c4
 vendor/lib64/libadreno_utils.so|4fce79ddc81964a46752a7c3d5619c40c50d4222
@@ -477,7 +477,7 @@ vendor/lib/hw/sound_trigger.primary.msm8996.so|93d56e6ddfc9180e60ddf205fc4a53224
 vendor/lib/hw/vulkan.msm8996.so|0b69fd00ce1e3da65105e57b35ef17c78fe103d2
 vendor/lib/libacdb-fts.so|415cf9a80b5fd18716242e0094496ce77d00d120
 vendor/lib/libacdbloader.so|3b9ae23c9e11854a843f90c8b5d02a6ccdd15cfd
-vendor/lib/libacdbmapper.so
+vendor/lib/libacdbmapper.so|9991c23b6edb58202b46fab9de538e078bc1e6c6
 vendor/lib/libacdbrtac.so|1c13fbd61a4f7508bd9362b1793fbc7f67093797
 vendor/lib/libactuator_dw9714.so
 vendor/lib/libactuator_dw9800w.so
