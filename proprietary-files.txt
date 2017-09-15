@@ -760,6 +760,7 @@ vendor/lib/libmmcamera2_q3a_core.so
 vendor/lib/libmmcamera2_sensor_modules.so
 vendor/lib/libmmcamera2_stats_algorithm.so
 vendor/lib/libmmcamera2_stats_modules.so
+vendor/lib/libmmcamera_chromaflash_lib.so|f7ca7b0ed86b78937f2c3535da21a5e4ae80ff78
 vendor/lib/libmmcamera_csidtg.so
 vendor/lib/libmmcamera_dbg.so
 vendor/lib/libmmcamera_dummyalgo.so
@@ -819,6 +820,8 @@ vendor/lib/libmmcamera_isp_scaler_viewfinder46.so
 vendor/lib/libmmcamera_isp_sce40.so
 vendor/lib/libmmcamera_isp_snr47.so
 vendor/lib/libmmcamera_isp_sub_module.so
+vendor/lib/libmmcamera_llvd.so|ffea16d039fbbb0b24282800b130729c6e7ebe69
+vendor/lib/libmmcamera_optizoom_lib.so|a1676f3d3a46fb5973c77dc5f56edcd257954102
 vendor/lib/libmmcamera_ov8865_eeprom.so
 vendor/lib/libmmcamera_ov8865_ofilm_plus.so
 vendor/lib/libmmcamera_ov8865_ofilm.so
@@ -831,12 +834,15 @@ vendor/lib/libmmcamera_pdaf.so
 vendor/lib/libmmcamera_ppbase_module.so
 vendor/lib/libmmcamera_ppeiscore.so
 vendor/lib/libmmcamera_sony_imx298_eeprom.so
+vendor/lib/libmmcamera_stillmore_lib.so|0aec19b665aca7c9c9adaec1b6515fa07a3ebc82
 vendor/lib/libmmcamera_sunny_8865_eeprom.so
 vendor/lib/libmmcamera_thread_services.so
 vendor/lib/libmmcamera_tintless_algo.so
 vendor/lib/libmmcamera_tintless_bg_pca_algo.so
+vendor/lib/libmmcamera_trueportrait_lib.so|e374e1fe37ba81851a26ec8fc4edd4fa2e2b6733
 vendor/lib/libmmcamera_tuning_lookup.so
 vendor/lib/libmmcamera_tuning.so
+vendor/lib/libmmcamera_ubifocus_lib.so|451d598df65986105a800f1c6749560f37325f7b
 vendor/lib/libmm-color-convertor.so|61c831492f563d5de41a7469779c05190e27873b
 vendor/lib/libmm-disp-apis.so|5ecc58370f12e68353db439dd15f2b42dce09606
 vendor/lib/libmmjpeg.so
