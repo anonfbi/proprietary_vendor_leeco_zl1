@@ -141,11 +141,11 @@ etc/permissions/ConnectivityExt.xml
 etc/permissions/dpmapi.xml
 etc/permissions/embms.xml
 etc/permissions/imscm.xml
-etc/permissions/izat.xt.srv.xml
+etc/permissions/izat.xt.srv.xml|a0f460056f27b5495a4d6e959eecf0e429c42a57
 etc/permissions/qcnvitems.xml
 etc/permissions/qcrilhook.xml
 etc/permissions/qti_permissions.xml|fd8a1db3c18b6d58334d747e47f4b155bb612039
-etc/permissions/qti-vzw-ims-internal.xml
+etc/permissions/qti-vzw-ims-internal.xml|3e41b645dd4ad8bad6775c103a34bfd7a507a4f7
 etc/permissions/telephonyservice.xml
 etc/qdcm_calib_data_mdss_dsi_ft8716_1080p_video.xml
 etc/qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video.xml
