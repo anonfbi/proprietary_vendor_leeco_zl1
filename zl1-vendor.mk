@@ -209,7 +209,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/leeco/zl1/proprietary/lib64/libparam.so:system/lib64/libparam.so \
     vendor/leeco/zl1/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
-    vendor/leeco/zl1/proprietary/lib64/libstlport.so:system/lib64/libstlport.so \
     vendor/leeco/zl1/proprietary/vendor/bin/mdtpd:system/vendor/bin/mdtpd \
     vendor/leeco/zl1/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/leeco/zl1/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
