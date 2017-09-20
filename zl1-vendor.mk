@@ -61,7 +61,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
     vendor/leeco/zl1/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/leeco/zl1/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
-    vendor/leeco/zl1/proprietary/etc/acdbdata/MTP/workspaceFile.qwsp:system/etc/acdbdata/MTP/workspaceFile.qwsp \
     vendor/leeco/zl1/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
     vendor/leeco/zl1/proprietary/etc/camera/imx298_chromatix.xml:system/etc/camera/imx298_chromatix.xml \
     vendor/leeco/zl1/proprietary/etc/camera/imx298_ofilm_ak_chromatix.xml:system/etc/camera/imx298_ofilm_ak_chromatix.xml \
