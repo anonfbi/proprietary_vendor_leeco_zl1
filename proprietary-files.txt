@@ -377,7 +377,7 @@ vendor/lib64/libnetmgr.so|b1b87bde77d0fbc894125340b27f15d5e94fd663
 vendor/lib64/libperipheral_client.so|5b100cc3f8e32f82157e5bcd8a92c68b741d1ffe
 vendor/lib64/libqcci_legacy.so|17383207764155cff4e4e1b907793c3f2dc13300
 vendor/lib64/libqcmaputils.so|c9c705acace352b062c688a3bb5cce3e8ef3fe8a
-vendor/lib64/libqcproximity.so
+vendor/lib64/libqcproximity.so|db6b44f93892718c9d8e84ee00204e68af8b9e40
 vendor/lib64/libqdi.so|e91e7778b97be2590d22dc49df7c7886d00e136f
 vendor/lib64/libqdp.so|5f1066c6b02314c9d803dce89f21d1a2a3a00320
 vendor/lib64/libqfp-service.so|ef9748841e2fbfd51a3b8dac24c8e779f413ff99
@@ -861,7 +861,6 @@ vendor/lib/libOmxVideoDSMode.so|e7f5d8e3bfe2797a0b21f03188132aad52a72025
 vendor/lib/libperipheral_client.so|81a178a34e94931fca5e4a27a4edad822ead31eb
 vendor/lib/libqcci_legacy.so|afd895962437760bfb51ae7081d001877f7a3ed1
 vendor/lib/libqcmaputils.so|7507b5d7592ad82aa239802c69618646efa757b4
-vendor/lib/libqcproximity.so
 -vendor/lib/libqct_resampler.so|24744037d8d08a1c9f064176701cff4001f164a7
 vendor/lib/libqdi.so|703391a37fbfed8e695a87af4c81f9238e3f43aa
 vendor/lib/libqdp.so|267a68b6d30b2fc8d1b3b902ae11dcb7bd0a0bb8
