@@ -639,6 +639,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libqcmaputils.so:system/vendor/lib/libqcmaputils.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libqcproximity.so:system/vendor/lib/libqcproximity.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \

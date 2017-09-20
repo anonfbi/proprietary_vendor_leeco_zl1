@@ -377,7 +377,7 @@ vendor/lib64/libnetmgr.so|b1b87bde77d0fbc894125340b27f15d5e94fd663
 vendor/lib64/libperipheral_client.so|5b100cc3f8e32f82157e5bcd8a92c68b741d1ffe
 vendor/lib64/libqcci_legacy.so|17383207764155cff4e4e1b907793c3f2dc13300
 vendor/lib64/libqcmaputils.so|c9c705acace352b062c688a3bb5cce3e8ef3fe8a
-vendor/lib64/libqcproximity.so|db6b44f93892718c9d8e84ee00204e68af8b9e40
+vendor/lib64/libqcproximity.so
 vendor/lib64/libqdi.so|e91e7778b97be2590d22dc49df7c7886d00e136f
 vendor/lib64/libqdp.so|5f1066c6b02314c9d803dce89f21d1a2a3a00320
 vendor/lib64/libqfp-service.so|ef9748841e2fbfd51a3b8dac24c8e779f413ff99
@@ -443,10 +443,10 @@ vendor/lib64/libthermalioctl.so|6f8dba061e614856db01a9687004cc5188c51549
 -vendor/lib64/libtime_genoff.so|408228ee289637c382bef561bcafd98d4886abc6
 vendor/lib64/libTimeService.so|26ececc5dfcc8786f1b65d524bc774894ed079bb
 vendor/lib64/libtzdrmgenprov.so|e24434e616aea9d5499f83309fd17567a40875e7
-vendor/lib64/libual.so|7e2db03f753f8fc3902a54b456f06b9e42894904
-vendor/lib64/libualutil.so|7bf1584d0f28f95da13de608f744d98be1ea29e0
+vendor/lib64/libual.so
+vendor/lib64/libualutil.so
 vendor/lib64/libulp2.so|4b84c31abc6c809d4c90c9726dc28f589a562040
-vendor/lib64/libusndroute.so|94bf281074b096541820110a7ba0ea4c03077ef6
+vendor/lib64/libusndroute.so
 vendor/lib64/libvendorconn.so|518a4352c98ddaa587107189c0c3f84eba6e1c15
 vendor/lib64/libvoice-svc.so|259b062f54baabc9045dce02cc25263acd1436cd
 vendor/lib64/libvpphvx.so|67be5c54b35dcf05cfa91681a9646c646ddcefd5
@@ -861,6 +861,7 @@ vendor/lib/libOmxVideoDSMode.so|e7f5d8e3bfe2797a0b21f03188132aad52a72025
 vendor/lib/libperipheral_client.so|81a178a34e94931fca5e4a27a4edad822ead31eb
 vendor/lib/libqcci_legacy.so|afd895962437760bfb51ae7081d001877f7a3ed1
 vendor/lib/libqcmaputils.so|7507b5d7592ad82aa239802c69618646efa757b4
+vendor/lib/libqcproximity.so
 -vendor/lib/libqct_resampler.so|24744037d8d08a1c9f064176701cff4001f164a7
 vendor/lib/libqdi.so|703391a37fbfed8e695a87af4c81f9238e3f43aa
 vendor/lib/libqdp.so|267a68b6d30b2fc8d1b3b902ae11dcb7bd0a0bb8
@@ -906,9 +907,9 @@ vendor/lib/libsubsystem_control.so|fb83244b5c56be89b4ae976cab7d280180006305
 -vendor/lib/libthermalclient.so|580966926e8045632d196dcc21fb5ca49b5eba4e
 -vendor/lib/libtime_genoff.so|b24eb6563980cd05296b60e73cc3a970d1336357
 vendor/lib/libTimeService.so|9b36b620106ef8057f252087a74bda8b91f2f2dc
-vendor/lib/libual.so|ae141df976b97848fd2f204f2db501cd403d80b3
-vendor/lib/libualutil.so|0fddceb1fff4c6628ee71b65e6435cb5f2468578
-vendor/lib/libusndroute.so|e14d44eeb976ba2c307d44b50bfd4a398d63119f
+vendor/lib/libual.so
+vendor/lib/libualutil.so
+vendor/lib/libusndroute.so
 vendor/lib/libvendorconn.so|66c3d71403ee17b31a9af360efe61db35134a52b
 vendor/lib/libvpphvx.so|288a881438d74ad1d7fda373b736a010b0ad0138
 vendor/lib/libvqzip.so|f61d2c5e711ab4a06ec6d4038de81d38ad32299f
