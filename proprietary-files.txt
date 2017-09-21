@@ -503,6 +503,7 @@ vendor/lib/libC2D2.so|0086445b7118c6be88bef159fb1d901a1d4c9bf8
 vendor/lib/libc2d30-a5xx.so|6085baf304356bc4a9f49e163ddef5b0eaf225ed
 vendor/lib/libc2d30_bltlib.so|d9433ad7da36e5e11ec8052b2cc4590b4173927c
 vendor/lib/libCB.so|cbbe835f721060a1a9de8087b03402a973366da4
+vendor/lib/libchromaflash.so|cf85560822e04014b8950a1abae9c2843069101d
 vendor/lib/libchromatix_imx298_1080p_preview.so
 vendor/lib/libchromatix_imx298_1080p_snapshot.so
 vendor/lib/libchromatix_imx298_1080p_video.so
@@ -745,6 +746,7 @@ vendor/lib/libmdtpdemojni.so
 vendor/lib/libmdtp.so
 vendor/lib/libmmcamera2_c2d_module.so
 vendor/lib/libmmcamera2_cpp_module.so
+vendor/lib/libmmcamera2_dcrf.so|dbd21edbf305e5c61864c9dc756d8c3a3b03dde0
 vendor/lib/libmmcamera2_frame_algorithm.so
 vendor/lib/libmmcamera2_iface_modules.so
 vendor/lib/libmmcamera2_imglib_modules.so
@@ -761,6 +763,7 @@ vendor/lib/libmmcamera2_stats_modules.so
 vendor/lib/libmmcamera_chromaflash_lib.so|f7ca7b0ed86b78937f2c3535da21a5e4ae80ff78
 vendor/lib/libmmcamera_csidtg.so
 vendor/lib/libmmcamera_dbg.so
+vendor/lib/libmmcamera_dcrf_lib.so|d8b3ffbbce3c3dd534564d5bbb2ba2d00c2004a9
 vendor/lib/libmmcamera_dummyalgo.so
 vendor/lib/libmmcamera_eebinparse.so
 vendor/lib/libmmcamera_eeprom_util.so
@@ -857,6 +860,7 @@ vendor/lib/libOmxEvrcDec.so|a4cbd990b98a29b72b661a22239f5ab417e5ce6b
 vendor/lib/libOmxQcelp13Dec.so|d52947ce05f069b830a01f91518b78b7c233dfcb
 vendor/lib/libOmxVideoDSMode.so|e7f5d8e3bfe2797a0b21f03188132aad52a72025
 -vendor/lib/libOpenCL.so|9979863bcd10e3d47b9490dbfd9ed6e64b6d7f9a
+vendor/lib/liboptizoom.so|1e92993743636c045438f1f15c07c1e835d9ca46
 vendor/lib/libperipheral_client.so|81a178a34e94931fca5e4a27a4edad822ead31eb
 vendor/lib/libqcci_legacy.so|afd895962437760bfb51ae7081d001877f7a3ed1
 vendor/lib/libqcmaputils.so|7507b5d7592ad82aa239802c69618646efa757b4
@@ -892,6 +896,7 @@ vendor/lib/libsdm-diag.so|36b3eafdad88f5281ad5d5df71591ce0f268c3bb
 vendor/lib/libsdmextension.so|30d5883593c560b791d9f09658c881f12952b966
 -vendor/lib/libsd_sdk_display.so|23b1ef85654178da98e4f950d26736759cf069c1
 -vendor/lib/libsdsprpc.so|cdc946ecaeef9ac1ef70e652c3c0b29fcd5f7424
+vendor/lib/libseemore.so|8fc2ae17c7364f789bda71b20a2fba006f9568c8
 vendor/lib/libsensor1.so|07801ea7ad51293ecbb1cf6ca99813c2a2df5ca5
 vendor/lib/libsensor_reg.so|4709119f5caa176d28324b77ccc6aaff5d331d69
 vendor/lib/libsensor_test.so|950267000682628de005e4317b7c627fea369c8d
@@ -905,8 +910,10 @@ vendor/lib/libsubsystem_control.so|fb83244b5c56be89b4ae976cab7d280180006305
 -vendor/lib/libthermalclient.so|580966926e8045632d196dcc21fb5ca49b5eba4e
 -vendor/lib/libtime_genoff.so|b24eb6563980cd05296b60e73cc3a970d1336357
 vendor/lib/libTimeService.so|9b36b620106ef8057f252087a74bda8b91f2f2dc
+vendor/lib/libtrueportrait.so|b8e11c098bd859aae6c535cdb87e3e36f6b1c6ef
 vendor/lib/libual.so
 vendor/lib/libualutil.so
+vendor/lib/libubifocus.so|833a305c780b2e7e338323c5ba27cb042f5cc3ed
 vendor/lib/libusndroute.so
 vendor/lib/libvendorconn.so|66c3d71403ee17b31a9af360efe61db35134a52b
 vendor/lib/libvpphvx.so|288a881438d74ad1d7fda373b736a010b0ad0138
