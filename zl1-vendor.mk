@@ -927,8 +927,10 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libtime_genoff \
     libqct_resampler \
+    LetvRemoteControl \
     QtiTelephonyService \
     TimeService \
+    UEIQuicksetSDKLeTV \
     datastatusnotification \
     embms \
     fastdormancy \
