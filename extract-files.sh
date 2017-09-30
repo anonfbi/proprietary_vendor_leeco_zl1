@@ -21,6 +21,8 @@ set -e
 DEVICE=zl1
 VENDOR=leeco
 
+# FILE=LE_ZL1_LEX720-CN-FN-WAXCNFN5902607031S-5.9.026S.zip
+# REMOTE=https://drive.google.com/file/d/0BwRnZl5YW8NmbEtjX2dOSUExWlk
 FILE=LE_ZL1_LEX720-CN-FN-WAXCNFN5902303282S-5.9.023S.zip
 REMOTE=http://g3.letv.cn/222/8/95/scmauto/0/dailybuild/connect/cn/le_zl1/stable_023/20170328/lex720_zl1_stable_023_20170120_WAXCNFN5902303282S_20170328_122431_whole_netcom_user
 
