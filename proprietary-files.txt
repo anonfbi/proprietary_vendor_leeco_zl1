@@ -182,12 +182,15 @@ etc/xtra_root_cert.pem|f55a31ec4d9cf8ce2724acadecf00c779f8767db
 -framework/tcmclient.jar|e7149c664f4b1841139ab816c0d4e0942df0583c
 lib64/hw/fingerprint.msm8996.so|d4b17c72a1ccce3e908810e9b2eea419708a2c73
 lib64/hw/gxfingerprint5118m.default.so|9fb55730f6ad927bd3e699984a8472e2138c3173
+lib64/hw/nfc_nci.pn54x.default.so|d670caf1fcbd46c313cb0f6f110dc7260de4da24
 lib64/libfp_client5118m.so|11463c5a6f8b8924ee42fb8ddb42b96ff0d46a1a
 lib64/libfpnav5118m.so
 lib64/libfpservice5118m.so|d0543c92b550f08d2fda7773a6eff63664bf99a0
 lib64/libgnsspps.so|97a0dd71b605480e50c606517b7c976837d9ff2c
 -lib64/libloc_api_v02.so|2b6e61633ffb3e332bb2c03c3329f4250e403f10
 lib64/libloc_ds_api.so|388b82bb83cb54d3ff2f89ce38cb52f65d582448
+-lib64/libnfc-nci.so|3fe7ae2765e8f7bba6656ead11a82a60f41805cd
+lib64/libnfc_ndef.so|599d8330af89247cddfdad9b0d762b2ea110f6fd
 lib64/libparam.so|d9975e3f691148e5a3c14110305e073aa3aa2f46
 lib64/libstagefright_soft_flacdec.so|d0e0d5a9c706d3cfc52aec33ac4d414e5df80c02
 lib/hw/camera.msm8996.so
@@ -212,6 +215,8 @@ lib/libmpbase.so
 lib/libmpkernel.so
 lib/libmpstream.so
 lib/libmputility.so
+-lib/libnfc-nci.so|4a6d791b32e0f0471cb6601ef108572e2bef29d9
+lib/libnfc_ndef.so|4eaa34fe0f2f4f9d01e2223962efa15626fc4c7d
 lib/libOmxVpp.so|6cd45046959593f293b7170b80d10eb726f9f966
 lib/libqomx_core.so
 lib/libqrDec.so

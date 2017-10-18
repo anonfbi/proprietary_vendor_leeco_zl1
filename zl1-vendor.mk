@@ -191,6 +191,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/lib/libmpkernel.so:system/lib/libmpkernel.so \
     vendor/leeco/zl1/proprietary/lib/libmpstream.so:system/lib/libmpstream.so \
     vendor/leeco/zl1/proprietary/lib/libmputility.so:system/lib/libmputility.so \
+    vendor/leeco/zl1/proprietary/lib/libnfc_ndef.so:system/lib/libnfc_ndef.so \
     vendor/leeco/zl1/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/leeco/zl1/proprietary/lib/libqrDec.so:system/lib/libqrDec.so \
     vendor/leeco/zl1/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
@@ -201,11 +202,13 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/lib/rfsa/adsp/libmorpho_video_denoiser_hvx_skel.so:system/lib/rfsa/adsp/libmorpho_video_denoiser_hvx_skel.so \
     vendor/leeco/zl1/proprietary/lib64/hw/fingerprint.msm8996.so:system/lib64/hw/fingerprint.msm8996.so \
     vendor/leeco/zl1/proprietary/lib64/hw/gxfingerprint5118m.default.so:system/lib64/hw/gxfingerprint5118m.default.so \
+    vendor/leeco/zl1/proprietary/lib64/hw/nfc_nci.pn54x.default.so:system/lib64/hw/nfc_nci.pn54x.default.so \
     vendor/leeco/zl1/proprietary/lib64/libfp_client5118m.so:system/lib64/libfp_client5118m.so \
     vendor/leeco/zl1/proprietary/lib64/libfpnav5118m.so:system/lib64/libfpnav5118m.so \
     vendor/leeco/zl1/proprietary/lib64/libfpservice5118m.so:system/lib64/libfpservice5118m.so \
     vendor/leeco/zl1/proprietary/lib64/libgnsspps.so:system/lib64/libgnsspps.so \
     vendor/leeco/zl1/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
+    vendor/leeco/zl1/proprietary/lib64/libnfc_ndef.so:system/lib64/libnfc_ndef.so \
     vendor/leeco/zl1/proprietary/lib64/libparam.so:system/lib64/libparam.so \
     vendor/leeco/zl1/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
     vendor/leeco/zl1/proprietary/vendor/bin/mdtpd:system/vendor/bin/mdtpd \
@@ -912,6 +915,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
+    libnfc-nci \
     libloc_api_v02 \
     lib-ims-rcscmjni \
     lib-imsrcscm \
