@@ -251,7 +251,7 @@ vendor/etc/perf-profile4.conf|0bc4779472306b1b225e9fc9be40af54e14e2266
 vendor/etc/perf-profile5.conf|5bc85ed4a0f3cedd57e1e046416f423a83dc4f63
 vendor/etc/perf-profile6.conf|910a193b8425bbe0080f746d6788e66986b2e762
 vendor/etc/public.libraries.txt|b0054b6dc4efdef6269980cea76eff20b679d56c
-vendor/firmware/libpn548ad_fw.so
+vendor/firmware/libpn548ad_fw.so|dc7a63b9ad4322835bed91ac0ad584fd6c79fa35
 vendor/firmware/widevine.b00|e9613fee8d03b152dd66f667feb493775da995ca
 vendor/firmware/widevine.b01|c170dd2789a244499a69637724e1d11c3f9c8ded
 vendor/firmware/widevine.b02|e0808c16f39c6871a145669b57261546b5332d41
