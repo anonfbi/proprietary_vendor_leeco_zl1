@@ -746,6 +746,7 @@ vendor/lib/lib-imsxml.so|f01cde2ffff5021b54d8e6c3eda1ad0a051d04df
 vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
 vendor/lib/libjpegehw.so
+vendor/lib/libllvd_smore.so|04efbab03830fb30c58616f8242f06376c3ae412
 vendor/lib/libllvm-glnext.so|7a6d1eab7e314065614e6e328c8901e95eaf4b5a
 vendor/lib/libllvm-qcom.so|434fd100ba3f76891fa58a18a9821d2645847301
 vendor/lib/libllvm-qgl.so|c7a856c2b6e593856f6cb91fff96574cdbfebe86
