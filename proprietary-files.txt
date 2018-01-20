@@ -52,8 +52,8 @@ etc/acdbdata/MTP/MTP_General_cal.acdb|400631b427c266b8e021763cd52374f4e62c1d56
 etc/acdbdata/MTP/MTP_Global_cal.acdb|72b37fdf244306ac6988fb392bd4a03ca815d91c
 etc/acdbdata/MTP/MTP_Handset_cal.acdb|30646378497d83a998b86374a59095f124e1e01c
 etc/acdbdata/MTP/MTP_Hdmi_cal.acdb|5e622686ef398166883ee877a0a4046c4be9aea0
-etc/acdbdata/MTP/MTP_Headset_cal.acdb|e5e59bc06ede7acd4e52612e3d7aa712add2b677
-etc/acdbdata/MTP/MTP_Speaker_cal.acdb|e05fb3671063710420ec42308f8e9533d37aa01f
+etc/acdbdata/MTP/MTP_Headset_cal.acdb|45fb8a023c54ab56023b5cc3abad9ee8ab1a192f
+etc/acdbdata/MTP/MTP_Speaker_cal.acdb|1dbb2882a4c2c24fca8f9d3d8b1a531439a86412
 etc/cacert_location.pem|0789bf799c7e45d352a83e2f79ddb0cea86db85b
 etc/camera/imx298_chromatix.xml
 etc/camera/imx298_ofilm_ak_chromatix.xml
