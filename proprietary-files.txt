@@ -484,6 +484,9 @@ vendor/lib/libacdb-fts.so|415cf9a80b5fd18716242e0094496ce77d00d120
 vendor/lib/libacdbloader.so|3b9ae23c9e11854a843f90c8b5d02a6ccdd15cfd
 vendor/lib/libacdbmapper.so|9991c23b6edb58202b46fab9de538e078bc1e6c6
 vendor/lib/libacdbrtac.so|1c13fbd61a4f7508bd9362b1793fbc7f67093797
+vendor/lib/libactuator_ak7371.so
+vendor/lib/libactuator_bu63165.so
+vendor/lib/libactuator_bu64297.so
 vendor/lib/libactuator_dw9714.so
 vendor/lib/libactuator_dw9800w.so
 vendor/lib/libactuator_lc898122.so
