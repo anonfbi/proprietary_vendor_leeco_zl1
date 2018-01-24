@@ -371,11 +371,9 @@ vendor/lib64/libmmcamera_tintless_algo.so
 vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
 vendor/lib64/libmm-color-convertor.so|93bc8dd65877ba95e07ee72b29711e77221097c9
 vendor/lib64/libmm-disp-apis.so|82a107af842ff1040fadd44c3551d6b17af75db9
-vendor/lib64/libmm-dspp-utils.so
 vendor/lib64/libmmosal.so|57296e92349b22082b8c776622e86bc7a4f0f316
 vendor/lib64/libmmparser_lite.so|379628ee5dd4be36f883e22a835bd5a67aeccfc4
 vendor/lib64/libmmparser.so|91c9c266dde925d4adea4faf16489699aaaf87e1
-vendor/lib64/libmm-qdcm-diag.so
 vendor/lib64/libmm-qdcm.so|8127e34cf40242e17915da661271bf8c94bfa364
 vendor/lib64/libmmQSM.so|2c5bbaa9900775019273d399aba44fcafa1e5a1a
 vendor/lib64/libnetmgr.so|b1b87bde77d0fbc894125340b27f15d5e94fd663
@@ -449,10 +447,7 @@ vendor/lib64/libthermalioctl.so|6f8dba061e614856db01a9687004cc5188c51549
 -vendor/lib64/libtime_genoff.so|408228ee289637c382bef561bcafd98d4886abc6
 vendor/lib64/libTimeService.so|26ececc5dfcc8786f1b65d524bc774894ed079bb
 vendor/lib64/libtzdrmgenprov.so|e24434e616aea9d5499f83309fd17567a40875e7
-vendor/lib64/libual.so
-vendor/lib64/libualutil.so
 vendor/lib64/libulp2.so|4b84c31abc6c809d4c90c9726dc28f589a562040
-vendor/lib64/libusndroute.so
 vendor/lib64/libvendorconn.so|518a4352c98ddaa587107189c0c3f84eba6e1c15
 vendor/lib64/libvoice-svc.so|259b062f54baabc9045dce02cc25263acd1436cd
 vendor/lib64/libvpphvx.so|67be5c54b35dcf05cfa91681a9646c646ddcefd5
@@ -922,10 +917,7 @@ vendor/lib/libsubsystem_control.so|fb83244b5c56be89b4ae976cab7d280180006305
 -vendor/lib/libtime_genoff.so|b24eb6563980cd05296b60e73cc3a970d1336357
 vendor/lib/libTimeService.so|9b36b620106ef8057f252087a74bda8b91f2f2dc
 vendor/lib/libtrueportrait.so|b8e11c098bd859aae6c535cdb87e3e36f6b1c6ef
-vendor/lib/libual.so
-vendor/lib/libualutil.so
 vendor/lib/libubifocus.so|833a305c780b2e7e338323c5ba27cb042f5cc3ed
-vendor/lib/libusndroute.so
 vendor/lib/libvendorconn.so|66c3d71403ee17b31a9af360efe61db35134a52b
 vendor/lib/libvpphvx.so|288a881438d74ad1d7fda373b736a010b0ad0138
 vendor/lib/libvqzip.so|f61d2c5e711ab4a06ec6d4038de81d38ad32299f

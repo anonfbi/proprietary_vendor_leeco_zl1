@@ -679,10 +679,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/libual.so:system/vendor/lib/libual.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/libualutil.so:system/vendor/lib/libualutil.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/libusndroute.so:system/vendor/lib/libusndroute.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libvpphvx.so:system/vendor/lib/libvpphvx.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libvqzip.so:system/vendor/lib/libvqzip.so \
@@ -833,8 +830,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib64/libmdtpdemojni.so:system/vendor/lib64/libmdtpdemojni.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libmm-color-convertor.so:system/vendor/lib64/libmm-color-convertor.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
-    vendor/leeco/zl1/proprietary/vendor/lib64/libmm-dspp-utils.so:system/vendor/lib64/libmm-dspp-utils.so \
-    vendor/leeco/zl1/proprietary/vendor/lib64/libmm-qdcm-diag.so:system/vendor/lib64/libmm-qdcm-diag.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libmmQSM.so:system/vendor/lib64/libmmQSM.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:system/vendor/lib64/libmmcamera2_frame_algorithm.so \
@@ -897,10 +892,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so \
-    vendor/leeco/zl1/proprietary/vendor/lib64/libual.so:system/vendor/lib64/libual.so \
-    vendor/leeco/zl1/proprietary/vendor/lib64/libualutil.so:system/vendor/lib64/libualutil.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
-    vendor/leeco/zl1/proprietary/vendor/lib64/libusndroute.so:system/vendor/lib64/libusndroute.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libvpphvx.so:system/vendor/lib64/libvpphvx.so \
