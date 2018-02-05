@@ -230,8 +230,6 @@ lib/rfsa/adsp/libmorpho_video_denoiser_hvx_skel.so|0eba88c4bb08ef4f3920547b1366e
 -vendor/app/colorservice/colorservice.apk|1e6fbfd6030e60182dd2a212c46ecc9851a10e1c
 -vendor/app/ims/ims.apk|db0d76af3f62de5cc9013fbf30bb47ec32475197
 -vendor/app/imssettings/imssettings.apk|f2c84b3b8d2442604c9c79b66bb733c598b189bb
-vendor/bin/mdtpd
-vendor/bin/mm-pp-daemon
 vendor/bin/mm-pp-dpps|4cc817d49d56d30155529e0da50e806db963164e
 vendor/bin/pd-mapper|4bc651a377d96baf755dec4baf9ff20fb58b725d
 vendor/bin/perfd|03732187ce712ed6513e265042bdc6ba8b5ca6ac
@@ -355,9 +353,9 @@ vendor/lib64/liblowi_wifihal_nl.so|954a57b4b384be1ada4ddd82c0a5bca0bd56ad4e
 vendor/lib64/liblowi_wifihal.so|dd25d709d3b3915d33f24efb928508366cc4e159
 vendor/lib64/liblqe.so|af5000ece9bc6b8b74b9cf741704b9a516432df5
 vendor/lib64/libmdmdetect.so|89fba93499091fd743ab5386f4ca02d6279dd187
-vendor/lib64/libmdtp_crypto.so
-vendor/lib64/libmdtpdemojni.so
-vendor/lib64/libmdtp.so
+vendor/lib64/libmdtp_crypto.so|3cecff9bed8449973501d14a50a7377085fbc81c
+vendor/lib64/libmdtpdemojni.so|533da37d767dc288547032283204165a36cfe9ad
+vendor/lib64/libmdtp.so|6a4b713b87934d609fffb2665af1045c80d6881d
 vendor/lib64/libmmcamera2_frame_algorithm.so
 vendor/lib64/libmmcamera2_is.so
 vendor/lib64/libmmcamera2_q3a_core.so
@@ -747,9 +745,6 @@ vendor/lib/libllvm-qcom.so|434fd100ba3f76891fa58a18a9821d2645847301
 vendor/lib/libllvm-qgl.so|c7a856c2b6e593856f6cb91fff96574cdbfebe86
 vendor/lib/liblowi_client.so|f58674ea2a61b60696e8bf0db5db0883a222ee91
 vendor/lib/libmdmdetect.so|bdb5abd7eb931ec0bf0aaf50b03818a80c59abc1
-vendor/lib/libmdtp_crypto.so
-vendor/lib/libmdtpdemojni.so
-vendor/lib/libmdtp.so
 vendor/lib/libmmcamera2_c2d_module.so
 vendor/lib/libmmcamera2_cpp_module.so
 vendor/lib/libmmcamera2_dcrf.so|dbd21edbf305e5c61864c9dc756d8c3a3b03dde0
