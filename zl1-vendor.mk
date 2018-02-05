@@ -33,8 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/leeco/zl1/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/leeco/zl1/proprietary/bin/lowi-server:system/bin/lowi-server \
-    vendor/leeco/zl1/proprietary/bin/mbn_daemon:system/bin/mbn_daemon \
-    vendor/leeco/zl1/proprietary/bin/mbn_daemon_test:system/bin/mbn_daemon_test \
     vendor/leeco/zl1/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/leeco/zl1/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/leeco/zl1/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -53,7 +51,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/leeco/zl1/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/leeco/zl1/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
-    vendor/leeco/zl1/proprietary/bin/yep_qmi_server:system/bin/yep_qmi_server \
     vendor/leeco/zl1/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/leeco/zl1/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/leeco/zl1/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
