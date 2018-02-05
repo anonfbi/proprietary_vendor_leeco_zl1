@@ -39,7 +39,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/leeco/zl1/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/leeco/zl1/proprietary/bin/qfp-daemon:system/bin/qfp-daemon \
-    vendor/leeco/zl1/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/leeco/zl1/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/leeco/zl1/proprietary/bin/radish:system/bin/radish \
     vendor/leeco/zl1/proprietary/bin/rmt_storage:system/bin/rmt_storage \
@@ -672,6 +671,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libsensor_test.so:system/vendor/lib/libsensor_test.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libsensor_thresh.so:system/vendor/lib/libsensor_thresh.so \
+    vendor/leeco/zl1/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
@@ -880,7 +881,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib64/libsecureuisvc_jni.so:system/vendor/lib64/libsecureuisvc_jni.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
-    vendor/leeco/zl1/proprietary/vendor/lib64/libsensor_test.so:system/vendor/lib64/libsensor_test.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libsensor_thresh.so:system/vendor/lib64/libsensor_thresh.so \
+    vendor/leeco/zl1/proprietary/vendor/lib64/libsensor_user_cal.so:system/vendor/lib64/libsensor_user_cal.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libslimclient.so:system/vendor/lib64/libslimclient.so \
     vendor/leeco/zl1/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
