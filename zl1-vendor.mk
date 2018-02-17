@@ -270,7 +270,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
     vendor/leeco/zl1/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/leeco/zl1/proprietary/vendor/lib/hw/activity_recognition.msm8996.so:system/vendor/lib/hw/activity_recognition.msm8996.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/hw/camera.msm8996.so:system/vendor/lib/hw/camera.msm8996.so \
     vendor/leeco/zl1/proprietary/vendor/lib/hw/gatekeeper.msm8996.so:system/vendor/lib/hw/gatekeeper.msm8996.so \
     vendor/leeco/zl1/proprietary/vendor/lib/hw/keystore.msm8996.so:system/vendor/lib/hw/keystore.msm8996.so \
     vendor/leeco/zl1/proprietary/vendor/lib/hw/sound_trigger.primary.msm8996.so:system/vendor/lib/hw/sound_trigger.primary.msm8996.so \
@@ -298,7 +297,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/libactuator_rohm_bu63165gwl.so:system/vendor/lib/libactuator_rohm_bu63165gwl.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libadm.so:system/vendor/lib/libadm.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libadpcmdec.so:system/vendor/lib/libadpcmdec.so \
@@ -347,7 +345,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libois_rohm_bu63165gwl.so:system/vendor/lib/libois_rohm_bu63165gwl.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libperfgluelayer.so:system/vendor/lib/libperfgluelayer.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
@@ -382,7 +379,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/zl1/proprietary/vendor/lib/libsdm-disp-apis.so:system/vendor/lib/libsdm-disp-apis.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libsdm-disp-vndapis.so:system/vendor/lib/libsdm-disp-vndapis.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libsdmextension.so:system/vendor/lib/libsdmextension.so \
-    vendor/leeco/zl1/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/leeco/zl1/proprietary/vendor/lib/libsensor_thresh.so:system/vendor/lib/libsensor_thresh.so \
@@ -626,7 +622,6 @@ PRODUCT_PACKAGES += \
     ims \
     imssettings \
     CNEService \
-    IFAAService \
     com.qualcomm.location \
     dpmserviceapp \
     qcrilmsgtunnel \

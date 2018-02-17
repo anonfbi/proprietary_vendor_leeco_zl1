@@ -170,7 +170,6 @@ lib/vendor.qti.hardware.qteeconnector@1.0.so|ff4b5add52406c5388949711210a49ca9eb
 -priv-app/CNEService/CNEService.apk|5d4743300fbf77ab72b2dcd05dbb233c2d9efd65
 -priv-app/com.qualcomm.location/com.qualcomm.location.apk|080efc3cd7ed26db0fb0586f68b75190ea947f95
 -priv-app/dpmserviceapp/dpmserviceapp.apk|cbf9f41fb08d29388b34a75e57ab948f6b82694e
--priv-app/IFAAService/IFAAService.apk|4b72acdbd61d50c1e53c021df2942a589ed377ca
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|55eab7bdd59841e3622133eb736b536222231e82
 -vendor/app/colorservice/colorservice.apk|5b70fabba5f2a6b46b798155ed3c83867277e2b8
 -vendor/app/TimeService/TimeService.apk|ba2c7ea87183844f788a4e9dd51ed1d3943cbf7c
@@ -473,7 +472,6 @@ vendor/lib/egl/libGLESv2_adreno.so|6a4b12190c297c8f21bba777876cfd6c27207158
 vendor/lib/egl/libq3dtools_adreno.so|0859b1ea8b49ed14429ca45826551f1633895264
 vendor/lib/egl/libQTapGLES.so|59a92cc3ffc98147498ee6895e60d66d8549796a
 vendor/lib/hw/activity_recognition.msm8996.so|a93ab9aa549c2ce5b9ba5b1b8d62a192a66a6c1a
-vendor/lib/hw/camera.msm8996.so|310b77872609899862ff151e66d0e9f377b2cbac
 vendor/lib/hw/gatekeeper.msm8996.so|ac555627694d57b1dd79b4ddf3faec2e9174967f
 vendor/lib/hw/keystore.msm8996.so|bd92d1ccbc294e6bcb0fdb4018749646d1ba0193
 vendor/lib/hw/sound_trigger.primary.msm8996.so|48674459b8e5dcec0231a9345c8824a248d8f537
@@ -483,7 +481,6 @@ vendor/lib/hw/vulkan.msm8996.so|dcd44a4df3234649eb25d5e16dfc16ab4a4284f1
 vendor/lib/libacdb-fts.so|1ebcdd5bee8fbd7e6b31608d3791d91b8f91ec22
 vendor/lib/libacdbloader.so|7f8ecb7ebf6440798be8bb225c9b89e325df4ae2
 vendor/lib/libacdbrtac.so|323798bbf0bb0883176b16135316f4d0cd8aa80a
-vendor/lib/libactuator_rohm_bu63165gwl.so|078b385782a8294e91b27922ad7b377a030e4b48
 vendor/lib/libadiertac.so|c2d0b5725e762d85f4bb4b2644c9820c39b01522
 vendor/lib/libadm.so|d2e6b046f745ae5da24b15c5121a36578e0c730f
 vendor/lib/libadpcmdec.so|cce776b6e1edac56705b155444c3f28362055442
@@ -548,7 +545,6 @@ vendor/lib/libOmxQcelp13Dec.so|ac8733bccd9080e4cd8f78164ea5601f6b37eeec
 vendor/lib/libOmxVpp.so|e732e95e48659f166368d5e4d9ca6d0502ed0290
 vendor/lib/libOmxWmaDec.so|723256e9722a2d29328432ea3750c03dd889739d
 -vendor/lib/libOpenCL.so|5dc66f1d3008e79c1a1b9483399423dbe737a773
-vendor/lib/liboptizoom.so|1e92993743636c045438f1f15c07c1e835d9ca46
 vendor/lib/libperfgluelayer.so|977d97ddcbb504f251008334f9f1dbdd9cf408ee
 vendor/lib/libperipheral_client.so|7e54351ec6cae4a302330671e247a2487e36ff15
 vendor/lib/libqcci_legacy.so|1cbbed96ecfb4a0a79a02ba193acecbc1e6addd5
@@ -586,7 +582,6 @@ vendor/lib/libsdm-disp-apis.so|152b51f294f170ebd3528d80c6e65fcc4436f6aa
 vendor/lib/libsdm-disp-vndapis.so|e0964709bc17595eb5cd9dedabf703117a2714f8
 vendor/lib/libsdmextension.so|5d539b3215c6551a1fedb8c167d2fa086c9ed1ff
 vendor/lib/libsd_sdk_display.so|161e50c19862deccf40db201668d4e6cee1c894a
-vendor/lib/libseemore.so|8fc2ae17c7364f789bda71b20a2fba006f9568c8
 vendor/lib/libsensor1.so|d8d2f53a261c045d814e5a70ba1194c2f0075942
 vendor/lib/libsensor_reg.so|5fb200beaf65132cfea6ba076b9d6178015bd11e
 vendor/lib/libsensor_thresh.so|aa4699127d90b7a79d895363e173ed3e48e3b954
