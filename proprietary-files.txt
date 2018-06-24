@@ -27,7 +27,7 @@ bin/irsc_util|3511b58a95675215f76f078a0e5d9409e829a204
 bin/loc_launcher|8d290854a4698db324db04f88685c8dcd4c9a587
 bin/lowi-server|5769b4fa9f21e993f88e4f45755c5c523b6531d6
 bin/mm-qcamera-daemon
-bin/msm_irqbalance|b33e6d489283202c9259993f571b68b584726317
+bin/msm_irqbalance|a47bf3c651d0b7553c5e779b9e02398c978cb3dd
 bin/netmgrd|98689ddc9082db0b0c65db226cd9815c73b0c2de
 bin/pm-proxy|0eed2f8b954f35a04c6a3c61a015986401d9fc55
 bin/pm-service|9906de005accaa0cafe49d700e8e72fd10fa9cac
